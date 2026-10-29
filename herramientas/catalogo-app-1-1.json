@@ -1,0 +1,5898 @@
+[
+  {
+    "name": "100% WHEY PROTEIN ISOLATE HSN",
+    "kcal": 386,
+    "protein": 93,
+    "carbs": 1.2,
+    "fat": 1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Aceite Abril",
+    "kcal": 819,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 91,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Aceite de Coco Virgen HSN",
+    "kcal": 900,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 100,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Aceite de oliva",
+    "kcal": 900,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 100,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Aceite de oliva virgen extra Hacendado",
+    "kcal": 819,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 91,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Aceite de oliva virgen extra picual Casa Jun",
+    "kcal": 824,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 91.6,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Aceitunas verdes",
+    "kcal": 143,
+    "protein": 1,
+    "carbs": 1,
+    "fat": 15,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Actimel 100 g x 12 original Actimel",
+    "kcal": 69,
+    "protein": 3,
+    "carbs": 10.8,
+    "fat": 1.5,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Activia Céréales Danone",
+    "kcal": 101,
+    "protein": 3.4,
+    "carbs": 14.3,
+    "fat": 3.3,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Activia Coco Activia",
+    "kcal": 93,
+    "protein": 3.6,
+    "carbs": 12.6,
+    "fat": 3.1,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Aguacate",
+    "kcal": 151,
+    "protein": 2,
+    "carbs": 2,
+    "fat": 15,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Alcachofa",
+    "kcal": 35,
+    "protein": 3.3,
+    "carbs": 5,
+    "fat": 0.2,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Almendra natural Hacendado",
+    "kcal": 618,
+    "protein": 25.2,
+    "carbs": 5.9,
+    "fat": 54.8,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Almendra Sin azúcares Carrefour BIO",
+    "kcal": 25,
+    "protein": 0.7,
+    "carbs": 1.7,
+    "fat": 1.7,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Almendras",
+    "kcal": 618,
+    "protein": 25.2,
+    "carbs": 5.9,
+    "fat": 54.8,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Almendras al natural Alesto",
+    "kcal": 597,
+    "protein": 24.5,
+    "carbs": 4.8,
+    "fat": 53.3,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Almendras Lidl Alesto",
+    "kcal": 597,
+    "protein": 24.5,
+    "carbs": 4.8,
+    "fat": 53.3,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Almond butter extra creamy HSN",
+    "kcal": 623,
+    "protein": 24.1,
+    "carbs": 10,
+    "fat": 54.1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Almond butter HSN",
+    "kcal": 630,
+    "protein": 25.4,
+    "carbs": 6.5,
+    "fat": 55.8,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Alubias blancas cocidas",
+    "kcal": 113,
+    "protein": 7,
+    "carbs": 20,
+    "fat": 0.5,
+    "category": "LEGUMBRES"
+  },
+  {
+    "name": "AMILOPECTINA LIMON HSN",
+    "kcal": 387,
+    "protein": 0.4,
+    "carbs": 96,
+    "fat": 0.1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Amilopectina sin sabor HSN",
+    "kcal": 391,
+    "protein": 0.4,
+    "carbs": 97,
+    "fat": 0.2,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Amilopeptina",
+    "kcal": 320,
+    "protein": 0.1,
+    "carbs": 80,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Anacardo natural Hacendado",
+    "kcal": 612,
+    "protein": 21.9,
+    "carbs": 22.6,
+    "fat": 48.2,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Anacardos",
+    "kcal": 576,
+    "protein": 18,
+    "carbs": 27,
+    "fat": 44,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Anacardos Alesto",
+    "kcal": 590,
+    "protein": 20.5,
+    "carbs": 19.8,
+    "fat": 47.6,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Arandanos",
+    "kcal": 60,
+    "protein": 0.7,
+    "carbs": 14.4,
+    "fat": 0,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Arandanos congelados",
+    "kcal": 47,
+    "protein": 0.7,
+    "carbs": 11,
+    "fat": 0,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Arándanos deshidratados Alesto Selection",
+    "kcal": 315,
+    "protein": 0.5,
+    "carbs": 76.2,
+    "fat": 0.9,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Arrabbiata Barilla",
+    "kcal": 56,
+    "protein": 1.4,
+    "carbs": 5.5,
+    "fat": 3.1,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Arroz basmati (en seco)",
+    "kcal": 354,
+    "protein": 8,
+    "carbs": 77,
+    "fat": 0.9,
+    "category": "Otros"
+  },
+  {
+    "name": "Arroz basmati aromático Hacendado",
+    "kcal": 353,
+    "protein": 9,
+    "carbs": 78,
+    "fat": 0.6,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Arroz Basmati Carrefour BIO",
+    "kcal": 347,
+    "protein": 7.5,
+    "carbs": 78,
+    "fat": 0.6,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Arroz basmati crudo",
+    "kcal": 352,
+    "protein": 8,
+    "carbs": 78,
+    "fat": 0.9,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Arroz BASMATI Integral Carrefour BIO",
+    "kcal": 359,
+    "protein": 11,
+    "carbs": 73,
+    "fat": 2.6,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Arroz blanco cocido",
+    "kcal": 126,
+    "protein": 2.7,
+    "carbs": 28,
+    "fat": 0.3,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Arroz blanco en crudo",
+    "kcal": 342,
+    "protein": 8.2,
+    "carbs": 75,
+    "fat": 1,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Arroz Carrefour BIO",
+    "kcal": 56,
+    "protein": 0.5,
+    "carbs": 11,
+    "fat": 1.1,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "ARROZ COCO Sin azúcares añadidos** Carrefour",
+    "kcal": 53,
+    "protein": 0.5,
+    "carbs": 10,
+    "fat": 1.2,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Arroz integral Carrefour",
+    "kcal": 345,
+    "protein": 7.9,
+    "carbs": 72,
+    "fat": 2.8,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Arroz integral cocido",
+    "kcal": 111,
+    "protein": 2.6,
+    "carbs": 23,
+    "fat": 0.9,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Arroz integral en crudo",
+    "kcal": 342,
+    "protein": 7.5,
+    "carbs": 72,
+    "fat": 2.7,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Arroz integral largo Hacendado",
+    "kcal": 344,
+    "protein": 7.6,
+    "carbs": 72,
+    "fat": 2.8,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Atún al natural",
+    "kcal": 116,
+    "protein": 25.5,
+    "carbs": 0,
+    "fat": 1,
+    "category": "Otros"
+  },
+  {
+    "name": "Atun al natural filete fresco",
+    "kcal": 187,
+    "protein": 23,
+    "carbs": 0,
+    "fat": 10.5,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Atun al natural lata",
+    "kcal": 79,
+    "protein": 18,
+    "carbs": 0.5,
+    "fat": 0.6,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Atún claro al natural Hacendado",
+    "kcal": 98,
+    "protein": 21,
+    "carbs": 0.9,
+    "fat": 1.2,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Atún Claro al Natural Lidl",
+    "kcal": 122,
+    "protein": 26,
+    "carbs": 0,
+    "fat": 2,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Atún Claro en aceite de girasol Carrefour",
+    "kcal": 285,
+    "protein": 15,
+    "carbs": 0,
+    "fat": 25,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Atún Claro en Aceite de Girasol Hacendado",
+    "kcal": 250,
+    "protein": 21,
+    "carbs": 0.9,
+    "fat": 18,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Atún claro en aceite de oliva Hacendado",
+    "kcal": 250,
+    "protein": 21,
+    "carbs": 0.9,
+    "fat": 18,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Atún con tomate Isabel",
+    "kcal": 155,
+    "protein": 17,
+    "carbs": 2.7,
+    "fat": 8.5,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Atun en aceite de oliva lata escrurrida",
+    "kcal": 250,
+    "protein": 21,
+    "carbs": 0.9,
+    "fat": 18,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Atun ISABEL",
+    "kcal": 198,
+    "protein": 27,
+    "carbs": 0,
+    "fat": 10,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Avellana Tostada 0% Sal Alesto",
+    "kcal": 706,
+    "protein": 14.3,
+    "carbs": 3.5,
+    "fat": 70.5,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Avellanas",
+    "kcal": 637,
+    "protein": 15,
+    "carbs": 7,
+    "fat": 61,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Avellanas alpro",
+    "kcal": 29,
+    "protein": 0.4,
+    "carbs": 3.2,
+    "fat": 1.6,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Avena Barista Edition Oatly",
+    "kcal": 60,
+    "protein": 1.1,
+    "carbs": 7.1,
+    "fat": 3,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Avena Carrefour BIO",
+    "kcal": 42,
+    "protein": 0.5,
+    "carbs": 7.2,
+    "fat": 1.2,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Avena molida hacendado",
+    "kcal": 351,
+    "protein": 12.2,
+    "carbs": 59.6,
+    "fat": 7.1,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Avena vainilla HSN",
+    "kcal": 382,
+    "protein": 12,
+    "carbs": 68,
+    "fat": 6.9,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Bacalao fresco",
+    "kcal": 78,
+    "protein": 17.8,
+    "carbs": 0,
+    "fat": 0.7,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Baiocchi Mulino Bianco - Barilla",
+    "kcal": 502,
+    "protein": 8,
+    "carbs": 59,
+    "fat": 26,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Barbecue Sauce HSN",
+    "kcal": 32,
+    "protein": 2.2,
+    "carbs": 5.9,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Barbeque HONEY HSN",
+    "kcal": 32,
+    "protein": 2.2,
+    "carbs": 5.9,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Barra de pan",
+    "kcal": 263,
+    "protein": 8.6,
+    "carbs": 55,
+    "fat": 1,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Barrita Cereales Semillas y Almendras Carref",
+    "kcal": 511,
+    "protein": 20,
+    "carbs": 20,
+    "fat": 39,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Barrita HSN",
+    "kcal": 370,
+    "protein": 0,
+    "carbs": 92.5,
+    "fat": 0,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Barritas avena y chocolate negro Hacendado",
+    "kcal": 458,
+    "protein": 8.6,
+    "carbs": 61,
+    "fat": 20,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Barritas de cereales chocolate Carrefour BIO",
+    "kcal": 399,
+    "protein": 5.1,
+    "carbs": 73,
+    "fat": 9.6,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Barritas de cereales FRESA Carrefour BIO",
+    "kcal": 336,
+    "protein": 6.6,
+    "carbs": 64,
+    "fat": 6,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Barritas de Espelta Sabor Manzana 0% Hacenda",
+    "kcal": 299,
+    "protein": 6.1,
+    "carbs": 55,
+    "fat": 6.1,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Basilico BARILLA",
+    "kcal": 60,
+    "protein": 1.6,
+    "carbs": 7.6,
+    "fat": 2.6,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Basmati Carrefour",
+    "kcal": 351,
+    "protein": 8.6,
+    "carbs": 77,
+    "fat": 0.9,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Batata (versión 1)",
+    "kcal": 107,
+    "protein": 1.5,
+    "carbs": 24,
+    "fat": 0.6,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Batata (versión 2)",
+    "kcal": 108,
+    "protein": 1.6,
+    "carbs": 24,
+    "fat": 0.6,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Batido +proteinas fresa Hacendado",
+    "kcal": 50,
+    "protein": 7.1,
+    "carbs": 4.5,
+    "fat": 0.4,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Batido EVOWHEY 2.0 HSN",
+    "kcal": 362,
+    "protein": 77,
+    "carbs": 6.4,
+    "fat": 3.2,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Beanz Heinz",
+    "kcal": 72,
+    "protein": 4.7,
+    "carbs": 12.9,
+    "fat": 0.2,
+    "category": "LEGUMBRES"
+  },
+  {
+    "name": "Bebida de almendra 0% azúcares Hacendado",
+    "kcal": 16,
+    "protein": 0.5,
+    "carbs": 0,
+    "fat": 1.5,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Bebida de almendra sin azucar",
+    "kcal": 13,
+    "protein": 0.5,
+    "carbs": 0.3,
+    "fat": 1.1,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Bebida de avena",
+    "kcal": 42,
+    "protein": 0.6,
+    "carbs": 7,
+    "fat": 1.3,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Bebida de avena 0% azúcar Hacendado",
+    "kcal": 34,
+    "protein": 0.7,
+    "carbs": 4.7,
+    "fat": 1.4,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Bebida de soja",
+    "kcal": 39,
+    "protein": 3.3,
+    "carbs": 2.5,
+    "fat": 1.8,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Bebida lactea carrefour +proteinas",
+    "kcal": 71,
+    "protein": 11,
+    "carbs": 5.5,
+    "fat": 0.5,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Bebida whey proteinas Hacendado",
+    "kcal": 46,
+    "protein": 7.9,
+    "carbs": 2.2,
+    "fat": 0.6,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Berenjena",
+    "kcal": 29,
+    "protein": 1,
+    "carbs": 5.7,
+    "fat": 0.2,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Beurre de cacahuètes crunchy McEnnedy",
+    "kcal": 637,
+    "protein": 27.3,
+    "carbs": 8.1,
+    "fat": 55,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Bio Organic Sweet Corn Freshona",
+    "kcal": 72,
+    "protein": 2.6,
+    "carbs": 11.5,
+    "fat": 1.7,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Biscotes Integrales eco Carrefour BIO",
+    "kcal": 361,
+    "protein": 15,
+    "carbs": 64,
+    "fat": 5,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Biscotes integrales original wasa",
+    "kcal": 298,
+    "protein": 9,
+    "carbs": 62,
+    "fat": 1.5,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Bolas de maiz inflado de chocolate Carrefour",
+    "kcal": 364,
+    "protein": 8.6,
+    "carbs": 77,
+    "fat": 2.4,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Brocoli",
+    "kcal": 41,
+    "protein": 2.8,
+    "carbs": 6.6,
+    "fat": 0.4,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Brocoli ultracongelado",
+    "kcal": 23,
+    "protein": 3,
+    "carbs": 1.8,
+    "fat": 0.4,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Bulgur crudo",
+    "kcal": 312,
+    "protein": 12,
+    "carbs": 63,
+    "fat": 1.3,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Buo Cioccolato Fondente 70% Lidl Organic",
+    "kcal": 550,
+    "protein": 8.5,
+    "carbs": 35.3,
+    "fat": 41.6,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Burger meat pollo",
+    "kcal": 118,
+    "protein": 17.7,
+    "carbs": 2.9,
+    "fat": 4,
+    "category": "CARNES"
+  },
+  {
+    "name": "Burger meat vacuno",
+    "kcal": 139,
+    "protein": 19,
+    "carbs": 1,
+    "fat": 6.5,
+    "category": "CARNES"
+  },
+  {
+    "name": "Burger meat vacuno/cerdo",
+    "kcal": 215,
+    "protein": 17.2,
+    "carbs": 1.5,
+    "fat": 15.6,
+    "category": "CARNES"
+  },
+  {
+    "name": "Caballa",
+    "kcal": 184,
+    "protein": 19,
+    "carbs": 0,
+    "fat": 12,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Cacahuete en polvo desgrasado Hacendado (versión 1)",
+    "kcal": 390,
+    "protein": 46.7,
+    "carbs": 21,
+    "fat": 13.2,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Cacahuete en polvo desgrasado Hacendado (versión 2)",
+    "kcal": 390,
+    "protein": 46.7,
+    "carbs": 21,
+    "fat": 13.2,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Cacahuete frito con sal Hacendado",
+    "kcal": 581,
+    "protein": 23,
+    "carbs": 14,
+    "fat": 48.1,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Cacahuete frito sin sal Alesto",
+    "kcal": 609,
+    "protein": 24.7,
+    "carbs": 11.1,
+    "fat": 51.8,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Cacahuetes",
+    "kcal": 602,
+    "protein": 24,
+    "carbs": 13,
+    "fat": 50.4,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Cacahuetes fritos Carrefour",
+    "kcal": 606,
+    "protein": 27,
+    "carbs": 9.7,
+    "fat": 51,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Cacahuetes tostados y salados Alesto",
+    "kcal": 602,
+    "protein": 24.4,
+    "carbs": 11,
+    "fat": 51.2,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Cacao desgrasado en polvo",
+    "kcal": 235,
+    "protein": 22,
+    "carbs": 12,
+    "fat": 11,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Cacao en polvo HSN",
+    "kcal": 345,
+    "protein": 23,
+    "carbs": 16,
+    "fat": 21,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Calabacin",
+    "kcal": 19,
+    "protein": 1.2,
+    "carbs": 3.4,
+    "fat": 0.1,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Calabaza",
+    "kcal": 31,
+    "protein": 1,
+    "carbs": 6.5,
+    "fat": 0.1,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Calamar",
+    "kcal": 81,
+    "protein": 16,
+    "carbs": 1,
+    "fat": 1.4,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Canonigos",
+    "kcal": 20,
+    "protein": 2,
+    "carbs": 2,
+    "fat": 0.4,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Caprice Des Dieux Caprice des Dieux",
+    "kcal": 333,
+    "protein": 15,
+    "carbs": 0.8,
+    "fat": 30,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Caramel flavored syrup HSN",
+    "kcal": 56,
+    "protein": 0,
+    "carbs": 14,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Carne de kebab pollo Hacendado",
+    "kcal": 190,
+    "protein": 22.4,
+    "carbs": 2.7,
+    "fat": 10,
+    "category": "CARNES"
+  },
+  {
+    "name": "Carne picada de pavo",
+    "kcal": 98,
+    "protein": 20,
+    "carbs": 0,
+    "fat": 2,
+    "category": "CARNES"
+  },
+  {
+    "name": "Carne picada vacuno hacendado",
+    "kcal": 190,
+    "protein": 18,
+    "carbs": 2.4,
+    "fat": 12,
+    "category": "CARNES"
+  },
+  {
+    "name": "Carne roja picada",
+    "kcal": 170,
+    "protein": 20,
+    "carbs": 0,
+    "fat": 10,
+    "category": "CARNES"
+  },
+  {
+    "name": "Carne roja picada magra",
+    "kcal": 129,
+    "protein": 21,
+    "carbs": 0,
+    "fat": 5,
+    "category": "CARNES"
+  },
+  {
+    "name": "Caseina HSN",
+    "kcal": 369,
+    "protein": 86,
+    "carbs": 2.8,
+    "fat": 1.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Cashew Butter HSN",
+    "kcal": 658,
+    "protein": 20.6,
+    "carbs": 18.9,
+    "fat": 55.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Cashewkerne XXL Alesto Selection",
+    "kcal": 590,
+    "protein": 20.5,
+    "carbs": 19.8,
+    "fat": 47.6,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Cebolla natural",
+    "kcal": 45,
+    "protein": 0.9,
+    "carbs": 10.1,
+    "fat": 0.1,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Cereales con chocolate con leche Carrefour",
+    "kcal": 390,
+    "protein": 7.4,
+    "carbs": 77,
+    "fat": 5.8,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Cereales con chocolate negro Carrefour",
+    "kcal": 388,
+    "protein": 7.4,
+    "carbs": 75,
+    "fat": 6.5,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Cereales con frutos rojos Carrefour",
+    "kcal": 360,
+    "protein": 7.9,
+    "carbs": 79,
+    "fat": 1.4,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Cereales corn flakes Carrefour BIO",
+    "kcal": 368,
+    "protein": 7.2,
+    "carbs": 83,
+    "fat": 0.8,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Cerezas",
+    "kcal": 59,
+    "protein": 1,
+    "carbs": 13,
+    "fat": 0.3,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Chai Tea Latte HSN",
+    "kcal": 394,
+    "protein": 79,
+    "carbs": 5.6,
+    "fat": 6.2,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Champinones",
+    "kcal": 28,
+    "protein": 3.1,
+    "carbs": 3.3,
+    "fat": 0.3,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Chili con carne Hacendado",
+    "kcal": 106,
+    "protein": 8.2,
+    "carbs": 7.7,
+    "fat": 4.7,
+    "category": "CARNES"
+  },
+  {
+    "name": "Chimichurri Sauce HSN",
+    "kcal": 19,
+    "protein": 0,
+    "carbs": 4.8,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Chip Choco Zero Sin Azúcares Gullón",
+    "kcal": 496,
+    "protein": 5.9,
+    "carbs": 64,
+    "fat": 24,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Choccafit spread HSN",
+    "kcal": 566,
+    "protein": 19,
+    "carbs": 23.4,
+    "fat": 44,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Chocolate negro 100%",
+    "kcal": 582,
+    "protein": 13,
+    "carbs": 11,
+    "fat": 54,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Chocolate negro 72%",
+    "kcal": 546,
+    "protein": 10,
+    "carbs": 32,
+    "fat": 42,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Chocolate negro 74% cacao Fin Carré",
+    "kcal": 546,
+    "protein": 9.9,
+    "carbs": 32,
+    "fat": 42,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Chocolate negro 85%",
+    "kcal": 569,
+    "protein": 12.5,
+    "carbs": 20,
+    "fat": 48.8,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Chocolate negro 85% cacao J. D. Gross",
+    "kcal": 523,
+    "protein": 11.5,
+    "carbs": 19.9,
+    "fat": 44.2,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Chocolate negro Ecuador 80% cacao Ethiquable",
+    "kcal": 593,
+    "protein": 9.9,
+    "carbs": 28,
+    "fat": 49,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Chocolate negro Madagascar 85% cacao ETHIQUA",
+    "kcal": 599,
+    "protein": 11,
+    "carbs": 24,
+    "fat": 51,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Chucrut al estilo bávaro Hengstenberg",
+    "kcal": 18,
+    "protein": 1.5,
+    "carbs": 1.9,
+    "fat": 0.5,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Chuleta de cerdo",
+    "kcal": 147,
+    "protein": 21,
+    "carbs": 0,
+    "fat": 7,
+    "category": "CARNES"
+  },
+  {
+    "name": "Ciclodextrina",
+    "kcal": 388,
+    "protein": 0,
+    "carbs": 97,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Ciruelas desecadas sin hueso Hacendado",
+    "kcal": 240,
+    "protein": 2.2,
+    "carbs": 57,
+    "fat": 0.4,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Claras de huevo",
+    "kcal": 51,
+    "protein": 11,
+    "carbs": 0.5,
+    "fat": 0.5,
+    "category": "HUEVOS"
+  },
+  {
+    "name": "Claras de huevo pasteurizadas Güilén",
+    "kcal": 51,
+    "protein": 11,
+    "carbs": 0.5,
+    "fat": 0.5,
+    "category": "HUEVOS"
+  },
+  {
+    "name": "Claras de huevos líquidas HSN",
+    "kcal": 46,
+    "protein": 10.2,
+    "carbs": 1.2,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Cocktail Natural Hacendado",
+    "kcal": 617,
+    "protein": 20.4,
+    "carbs": 5.7,
+    "fat": 57,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Coco rallado hacendado",
+    "kcal": 646,
+    "protein": 7.9,
+    "carbs": 8.9,
+    "fat": 64.3,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Coco Sans Sucres alpro",
+    "kcal": 11,
+    "protein": 0.1,
+    "carbs": 0,
+    "fat": 1.2,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Cocoa & Peanut Butter HSN",
+    "kcal": 614,
+    "protein": 20,
+    "carbs": 18,
+    "fat": 51.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Coconut & Peanut Butter HSN",
+    "kcal": 589,
+    "protein": 24,
+    "carbs": 13,
+    "fat": 49,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Colagen + Magnesium 2.0 HSN",
+    "kcal": 337,
+    "protein": 84.2,
+    "carbs": 0,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Coliflor congelada",
+    "kcal": 24,
+    "protein": 2.2,
+    "carbs": 3.1,
+    "fat": 0.3,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Concentré de tomates Aicha",
+    "kcal": 31,
+    "protein": 1.2,
+    "carbs": 6.4,
+    "fat": 0.1,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Conejo",
+    "kcal": 129,
+    "protein": 21,
+    "carbs": 0,
+    "fat": 5,
+    "category": "CARNES"
+  },
+  {
+    "name": "Contramuslo de pollo",
+    "kcal": 129,
+    "protein": 19,
+    "carbs": 0,
+    "fat": 5.9,
+    "category": "CARNES"
+  },
+  {
+    "name": "Copos de avena",
+    "kcal": 355,
+    "protein": 13,
+    "carbs": 60,
+    "fat": 7,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Corn flakes",
+    "kcal": 365,
+    "protein": 6.7,
+    "carbs": 82,
+    "fat": 1.1,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Corn flakes Carrefour Kids",
+    "kcal": 376,
+    "protein": 6.1,
+    "carbs": 86,
+    "fat": 0.8,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Cottage Cheese Milbona",
+    "kcal": 98,
+    "protein": 11.5,
+    "carbs": 2.8,
+    "fat": 4.5,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Couscous crudo",
+    "kcal": 345,
+    "protein": 12,
+    "carbs": 72,
+    "fat": 1,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Creatina monohidrato HSN",
+    "kcal": 400,
+    "protein": 100,
+    "carbs": 0,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Crema arroz hsn (versión 1)",
+    "kcal": 364,
+    "protein": 7.2,
+    "carbs": 82,
+    "fat": 0.8,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Crema arroz HSN (versión 2)",
+    "kcal": 356,
+    "protein": 8.5,
+    "carbs": 77,
+    "fat": 1.6,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Crema arroz lifepro",
+    "kcal": 369,
+    "protein": 8.1,
+    "carbs": 79,
+    "fat": 2.3,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Crema de almendras",
+    "kcal": 623,
+    "protein": 24.1,
+    "carbs": 10,
+    "fat": 54.1,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Crema de anacardos HSN",
+    "kcal": 658,
+    "protein": 20.6,
+    "carbs": 18.9,
+    "fat": 55.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Crema de arroz HSN",
+    "kcal": 369,
+    "protein": 7.5,
+    "carbs": 83,
+    "fat": 0.8,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Crema De Arroz Sabor Galleta HSN",
+    "kcal": 364,
+    "protein": 7.3,
+    "carbs": 82,
+    "fat": 0.8,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Crema de cacahuate extra creamy HSN",
+    "kcal": 589,
+    "protein": 18,
+    "carbs": 30.2,
+    "fat": 44,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Crema de cacahuete",
+    "kcal": 591,
+    "protein": 30,
+    "carbs": 12,
+    "fat": 47,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Crema de cacahuete HSN",
+    "kcal": 590,
+    "protein": 28.2,
+    "carbs": 13.2,
+    "fat": 47.2,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Crema de cacahuete Maribel",
+    "kcal": 666,
+    "protein": 30.4,
+    "carbs": 12,
+    "fat": 55.1,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Crema de cacahuetes 100% Hacendado",
+    "kcal": 588,
+    "protein": 30,
+    "carbs": 12,
+    "fat": 46.7,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Crunchy oats & dark chocolate Nature Valley",
+    "kcal": 459,
+    "protein": 8.8,
+    "carbs": 61.4,
+    "fat": 19.8,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Crunchy Oats & Honey Nature Valley",
+    "kcal": 455,
+    "protein": 8.6,
+    "carbs": 64.3,
+    "fat": 18.1,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Curry Sauce HSN",
+    "kcal": 20,
+    "protein": 1.8,
+    "carbs": 3.3,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Dark choco with coco 72% HSN",
+    "kcal": 566,
+    "protein": 6.8,
+    "carbs": 29.7,
+    "fat": 46.7,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Datiles",
+    "kcal": 285,
+    "protein": 2.2,
+    "carbs": 68,
+    "fat": 0.5,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Dátiles desecados sin hueso Hacendado",
+    "kcal": 318,
+    "protein": 2,
+    "carbs": 76.4,
+    "fat": 0.5,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Dátiles deshidratados sin hueso Alesto",
+    "kcal": 268,
+    "protein": 2.2,
+    "carbs": 64,
+    "fat": 0.3,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Defatted Cocoa Powder HSN",
+    "kcal": 243,
+    "protein": 23,
+    "carbs": 13,
+    "fat": 11,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Defatted Peaunt Butter Powder HSN",
+    "kcal": 446,
+    "protein": 48,
+    "carbs": 32,
+    "fat": 14,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Delizias pechuga de pavo NOEL",
+    "kcal": 79,
+    "protein": 16,
+    "carbs": 1.8,
+    "fat": 0.9,
+    "category": "FIAMBRES"
+  },
+  {
+    "name": "Dorada",
+    "kcal": 115,
+    "protein": 19.8,
+    "carbs": 0,
+    "fat": 4,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Duo sticks with coconut HSN",
+    "kcal": 461,
+    "protein": 9.1,
+    "carbs": 41,
+    "fat": 29,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Duo Sticks with Peanuts anda Cocoa HSN",
+    "kcal": 520,
+    "protein": 17,
+    "carbs": 41,
+    "fat": 32,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Eaas",
+    "kcal": 49,
+    "protein": 12.4,
+    "carbs": 0,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Eaas HSN",
+    "kcal": 400,
+    "protein": 100,
+    "carbs": 0,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Ecogainer HSN",
+    "kcal": 377,
+    "protein": 35,
+    "carbs": 51,
+    "fat": 3.7,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Egg protein HSN",
+    "kcal": 349,
+    "protein": 80,
+    "carbs": 5.6,
+    "fat": 0.7,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Egg white powder HSN",
+    "kcal": 362,
+    "protein": 86,
+    "carbs": 4.5,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Emmental rallado Carrefour",
+    "kcal": 377,
+    "protein": 28,
+    "carbs": 1,
+    "fat": 29,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Entrecot ternera",
+    "kcal": 165,
+    "protein": 21,
+    "carbs": 0,
+    "fat": 9,
+    "category": "CARNES"
+  },
+  {
+    "name": "Escalopin de cerdo",
+    "kcal": 107,
+    "protein": 23,
+    "carbs": 0,
+    "fat": 1.7,
+    "category": "CARNES"
+  },
+  {
+    "name": "Espagueti Spaghettoni N.7 BARILLA",
+    "kcal": 354,
+    "protein": 13,
+    "carbs": 71,
+    "fat": 2,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Esparragos verdes",
+    "kcal": 18,
+    "protein": 2.2,
+    "carbs": 2,
+    "fat": 0.1,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Espinacas congeladas",
+    "kcal": 21,
+    "protein": 3,
+    "carbs": 1,
+    "fat": 0.5,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Espinacas frescas",
+    "kcal": 21,
+    "protein": 2.9,
+    "carbs": 1.4,
+    "fat": 0.4,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Evo Gummy HSN",
+    "kcal": 272,
+    "protein": 1.3,
+    "carbs": 66.7,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evo Series premium sport nutrition HSN",
+    "kcal": 436,
+    "protein": 70,
+    "carbs": 7.6,
+    "fat": 14,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evo series turrón HSN",
+    "kcal": 365,
+    "protein": 77,
+    "carbs": 6.9,
+    "fat": 3.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evo whey & Oats HSN",
+    "kcal": 398,
+    "protein": 43,
+    "carbs": 40,
+    "fat": 7.3,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Evobar HSN",
+    "kcal": 392,
+    "protein": 33.3,
+    "carbs": 28.3,
+    "fat": 16.2,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evobars HSN",
+    "kcal": 392,
+    "protein": 33.3,
+    "carbs": 28.3,
+    "fat": 16.2,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "EvoBars Protein Bars HSN",
+    "kcal": 420,
+    "protein": 31,
+    "carbs": 38,
+    "fat": 16,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "EvoCakes 2.0 HSN",
+    "kcal": 422,
+    "protein": 36,
+    "carbs": 38,
+    "fat": 14,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evocakes HSN",
+    "kcal": 431,
+    "protein": 36,
+    "carbs": 38,
+    "fat": 15,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evocakes Vegan HSN",
+    "kcal": 355,
+    "protein": 42,
+    "carbs": 41,
+    "fat": 2.6,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evocarbs",
+    "kcal": 372,
+    "protein": 0,
+    "carbs": 93,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evocarbs 2.0 HSN",
+    "kcal": 370,
+    "protein": 0,
+    "carbs": 92.5,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evocasein 2 HSN",
+    "kcal": 371,
+    "protein": 85,
+    "carbs": 4.4,
+    "fat": 1.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evocasein 2.0 Cereales HSN",
+    "kcal": 376,
+    "protein": 88,
+    "carbs": 2.5,
+    "fat": 1.5,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Evocasein 2.0 HSN",
+    "kcal": 374,
+    "protein": 87,
+    "carbs": 3.2,
+    "fat": 1.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evocasein HSN",
+    "kcal": 371,
+    "protein": 86,
+    "carbs": 3.4,
+    "fat": 1.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evocasein Nougat HSN",
+    "kcal": 372,
+    "protein": 86,
+    "carbs": 3.5,
+    "fat": 1.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evocasein Speculoos HSN",
+    "kcal": 372,
+    "protein": 85,
+    "carbs": 4.4,
+    "fat": 1.6,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evoclear Hidro HSN",
+    "kcal": 346,
+    "protein": 82,
+    "carbs": 3.4,
+    "fat": 0.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evoclear hydro HSN",
+    "kcal": 341,
+    "protein": 80,
+    "carbs": 4.4,
+    "fat": 0.4,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evoclear Hydro Naranja HSN",
+    "kcal": 347,
+    "protein": 83,
+    "carbs": 2.5,
+    "fat": 0.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evoegg HSN",
+    "kcal": 38,
+    "protein": 3.1,
+    "carbs": 6.3,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evoenergy Cake HSN",
+    "kcal": 315,
+    "protein": 3.8,
+    "carbs": 72,
+    "fat": 1.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evoenergy Gel Fresa HSN",
+    "kcal": 220,
+    "protein": 0,
+    "carbs": 55,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evoenergy Hydrogel HSN",
+    "kcal": 172,
+    "protein": 0,
+    "carbs": 42.9,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evoexcel 2.0 chocolate HSN",
+    "kcal": 383,
+    "protein": 84,
+    "carbs": 4.2,
+    "fat": 3.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evoexcel 2.0 HSN",
+    "kcal": 368,
+    "protein": 83,
+    "carbs": 3.8,
+    "fat": 2.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "EvoExcel 2.0 ISO HSN",
+    "kcal": 369,
+    "protein": 83,
+    "carbs": 4.3,
+    "fat": 2.2,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evogainer Vegan Chocolate HSN",
+    "kcal": 358,
+    "protein": 37,
+    "carbs": 41,
+    "fat": 5.1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evohydro 2.0 Choco HSN",
+    "kcal": 371,
+    "protein": 86.7,
+    "carbs": 2.3,
+    "fat": 1.7,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evohydro 2.0 HSN",
+    "kcal": 362,
+    "protein": 84,
+    "carbs": 4.3,
+    "fat": 1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evohydro HSN",
+    "kcal": 368,
+    "protein": 86,
+    "carbs": 2.5,
+    "fat": 1.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "EVOLATE 2.0 - Strawberry & Banana HSN",
+    "kcal": 377,
+    "protein": 89,
+    "carbs": 3.1,
+    "fat": 1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evolate 2.0 chocolate & galletas HSN",
+    "kcal": 369,
+    "protein": 84,
+    "carbs": 4.4,
+    "fat": 1.7,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Evolate 2.0 Cookies & Cream HSN",
+    "kcal": 379,
+    "protein": 90,
+    "carbs": 2.4,
+    "fat": 1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evolate 2.0 HSN",
+    "kcal": 370,
+    "protein": 85,
+    "carbs": 4.4,
+    "fat": 1.4,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evolate 2.0 whey protein isolatr HSN",
+    "kcal": 377,
+    "protein": 89,
+    "carbs": 2.8,
+    "fat": 1.1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evolate Custard HSN",
+    "kcal": 372,
+    "protein": 86.7,
+    "carbs": 4,
+    "fat": 1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evolate HSN",
+    "kcal": 385,
+    "protein": 88,
+    "carbs": 2.4,
+    "fat": 2.6,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evoluate 2.0 Chocolate HSN",
+    "kcal": 362,
+    "protein": 84,
+    "carbs": 2.4,
+    "fat": 1.8,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "EVOMASS 2.0 HSN",
+    "kcal": 372,
+    "protein": 28,
+    "carbs": 57,
+    "fat": 3.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "EVOMeal 2.0 Vanilla HSN",
+    "kcal": 376,
+    "protein": 45,
+    "carbs": 22,
+    "fat": 12,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evonative Casein HSN",
+    "kcal": 379,
+    "protein": 86,
+    "carbs": 4.2,
+    "fat": 2,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evonative Whey HSN",
+    "kcal": 378,
+    "protein": 79,
+    "carbs": 2.2,
+    "fat": 5.9,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evonatural 2.0 Café HSN",
+    "kcal": 389,
+    "protein": 75,
+    "carbs": 9.2,
+    "fat": 5.8,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evonigth 2.0 HSN",
+    "kcal": 366,
+    "protein": 81,
+    "carbs": 5.5,
+    "fat": 2.2,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evopro Vegan + Digezyme Speculoos HSN",
+    "kcal": 397,
+    "protein": 75,
+    "carbs": 8,
+    "fat": 7.2,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evopro vegan HSN",
+    "kcal": 386,
+    "protein": 75,
+    "carbs": 5.3,
+    "fat": 7.2,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evopro+Digezyme HSN",
+    "kcal": 370,
+    "protein": 87,
+    "carbs": 2.7,
+    "fat": 1.2,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evorecovery HSN",
+    "kcal": 328,
+    "protein": 28,
+    "carbs": 54,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evoseries HSN",
+    "kcal": 417,
+    "protein": 82,
+    "carbs": 6.7,
+    "fat": 6.9,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evotonic HSN",
+    "kcal": 338,
+    "protein": 11,
+    "carbs": 73,
+    "fat": 0.2,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evowhey - Chocolate Blanco y Mango HSN",
+    "kcal": 394,
+    "protein": 79,
+    "carbs": 5.6,
+    "fat": 6.2,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evowhey & Oats Capuchino Italiano HSN",
+    "kcal": 390,
+    "protein": 43,
+    "carbs": 39,
+    "fat": 6.9,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Evowhey & Oats Chocolate HSN",
+    "kcal": 387,
+    "protein": 43,
+    "carbs": 38,
+    "fat": 7,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Evowhey 2.0 Biscuit HSN",
+    "kcal": 414,
+    "protein": 81,
+    "carbs": 7,
+    "fat": 6.9,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evowhey 2.0 Custard Tart HSN",
+    "kcal": 362,
+    "protein": 76,
+    "carbs": 7.3,
+    "fat": 3.2,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evowhey 2.0 galleta HSN",
+    "kcal": 367,
+    "protein": 78,
+    "carbs": 6.3,
+    "fat": 3.3,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Evowhey 2.0 HSN",
+    "kcal": 365,
+    "protein": 77,
+    "carbs": 6.8,
+    "fat": 3.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evowhey 2.0 Premium whey protein HSN",
+    "kcal": 414,
+    "protein": 81,
+    "carbs": 7.1,
+    "fat": 6.8,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evowhey 2.0 protein manzana canela HSN",
+    "kcal": 416,
+    "protein": 81,
+    "carbs": 7.7,
+    "fat": 6.8,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evowhey 2.0 Salted Caramel HSN",
+    "kcal": 361,
+    "protein": 76,
+    "carbs": 7.1,
+    "fat": 3.2,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evowhey 2.0 Strawberry Banana HSN",
+    "kcal": 364,
+    "protein": 76.7,
+    "carbs": 6,
+    "fat": 3.7,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evowhey 2.0 vainilla caribeña HSN",
+    "kcal": 365,
+    "protein": 78,
+    "carbs": 5.9,
+    "fat": 3.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evowhey 2.0 Vainilla HSN",
+    "kcal": 367,
+    "protein": 78,
+    "carbs": 6.2,
+    "fat": 3.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evowhey Apple Studel HSN",
+    "kcal": 365,
+    "protein": 76.7,
+    "carbs": 7,
+    "fat": 3.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evowhey biscuit HSN",
+    "kcal": 365,
+    "protein": 77,
+    "carbs": 7,
+    "fat": 3.2,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evowhey chocolate wafer HSN",
+    "kcal": 353,
+    "protein": 73.3,
+    "carbs": 6.7,
+    "fat": 3.7,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evowhey Cinnamon HSN",
+    "kcal": 359,
+    "protein": 76,
+    "carbs": 6.4,
+    "fat": 3.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evowhey Frambuesa Y Vainilla HSN",
+    "kcal": 367,
+    "protein": 78,
+    "carbs": 6.4,
+    "fat": 3.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evowhey HSN",
+    "kcal": 356,
+    "protein": 74,
+    "carbs": 6.5,
+    "fat": 3.8,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evowhey Matcha Latte HSN",
+    "kcal": 363,
+    "protein": 76,
+    "carbs": 7.1,
+    "fat": 3.4,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evowhey Peach Mango HSN",
+    "kcal": 362,
+    "protein": 76.7,
+    "carbs": 6.3,
+    "fat": 3.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evowhey premium whey protein HSN",
+    "kcal": 364,
+    "protein": 76,
+    "carbs": 7.7,
+    "fat": 3.2,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Evowhey Tiramisu HSN",
+    "kcal": 384,
+    "protein": 76,
+    "carbs": 6.7,
+    "fat": 5.9,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Excellence 85% cacao Lindt",
+    "kcal": 552,
+    "protein": 12.5,
+    "carbs": 22,
+    "fat": 46,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Excellence 99% Cacao Noir Absolu Lindt",
+    "kcal": 534,
+    "protein": 14.2,
+    "carbs": 9,
+    "fat": 49,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Extra Virgin Olive Oil Primadonna",
+    "kcal": 828,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 92,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Feta Carrefour",
+    "kcal": 291,
+    "protein": 18,
+    "carbs": 0.7,
+    "fat": 24,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Filetes de caballa al grill AL NATURAL Carre",
+    "kcal": 199,
+    "protein": 25,
+    "carbs": 0,
+    "fat": 11,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Filetes de CABALLA AL NATURAL Carrefour",
+    "kcal": 173,
+    "protein": 23,
+    "carbs": 0,
+    "fat": 9,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Filetes de melva en aceite de oliva Hacendad",
+    "kcal": 179,
+    "protein": 24.7,
+    "carbs": 1.4,
+    "fat": 8.3,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Finn Crisp - Original Finn Crisp",
+    "kcal": 307,
+    "protein": 10,
+    "carbs": 61,
+    "fat": 2.6,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Flan +proteinas Hacendado",
+    "kcal": 65,
+    "protein": 10,
+    "carbs": 5.9,
+    "fat": 0.2,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Fogonero",
+    "kcal": 80,
+    "protein": 18,
+    "carbs": 0,
+    "fat": 0.9,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Food series HSN",
+    "kcal": 243,
+    "protein": 23,
+    "carbs": 13,
+    "fat": 11,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Frambuesas congeladas",
+    "kcal": 35,
+    "protein": 1.6,
+    "carbs": 7.1,
+    "fat": 0,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Frambuesass",
+    "kcal": 52,
+    "protein": 1,
+    "carbs": 12,
+    "fat": 0,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Fresas congeladas",
+    "kcal": 21,
+    "protein": 0,
+    "carbs": 5.2,
+    "fat": 0,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Fritada pisto Hacendado",
+    "kcal": 89,
+    "protein": 1.3,
+    "carbs": 10.4,
+    "fat": 4.7,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Fructosa en polvo HSN",
+    "kcal": 400,
+    "protein": 0,
+    "carbs": 100,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Fructose HSN",
+    "kcal": 400,
+    "protein": 0,
+    "carbs": 100,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Frutos rojos congelados",
+    "kcal": 26,
+    "protein": 0.9,
+    "carbs": 5.5,
+    "fat": 0,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Fuet Espetec Hacendado",
+    "kcal": 422,
+    "protein": 27.5,
+    "carbs": 1.4,
+    "fat": 34,
+    "category": "FIAMBRES"
+  },
+  {
+    "name": "Fusilli de lentejas rojas felicia",
+    "kcal": 319,
+    "protein": 26,
+    "carbs": 50,
+    "fat": 1.7,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Galletas fibra zero azúcares gullón",
+    "kcal": 437,
+    "protein": 6.1,
+    "carbs": 65,
+    "fat": 17,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Gambas peladas",
+    "kcal": 89,
+    "protein": 20,
+    "carbs": 0,
+    "fat": 1,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Garbanzos Bote Hacendado",
+    "kcal": 80,
+    "protein": 5.5,
+    "carbs": 9.5,
+    "fat": 2.2,
+    "category": "LEGUMBRES"
+  },
+  {
+    "name": "Garbanzos cocidos",
+    "kcal": 147,
+    "protein": 8.9,
+    "carbs": 22,
+    "fat": 2.6,
+    "category": "LEGUMBRES"
+  },
+  {
+    "name": "Garbanzos crudos",
+    "kcal": 346,
+    "protein": 19.3,
+    "carbs": 55,
+    "fat": 5.4,
+    "category": "LEGUMBRES"
+  },
+  {
+    "name": "Garbanzos Sol&Mar",
+    "kcal": 107,
+    "protein": 6.3,
+    "carbs": 15,
+    "fat": 2.4,
+    "category": "LEGUMBRES"
+  },
+  {
+    "name": "Garlic & Herbs Sauce HSN",
+    "kcal": 9,
+    "protein": 0.2,
+    "carbs": 1.8,
+    "fat": 0.1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Gelatina +proteinas Hacendado",
+    "kcal": 40,
+    "protein": 10,
+    "carbs": 0,
+    "fat": 0,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Gelatina 0%",
+    "kcal": 4,
+    "protein": 1,
+    "carbs": 0,
+    "fat": 0,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Golden protein HSN",
+    "kcal": 432,
+    "protein": 55,
+    "carbs": 7.9,
+    "fat": 20,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Goma de xantana HSN",
+    "kcal": 28,
+    "protein": 7,
+    "carbs": 0,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Grana Padano Carrefour",
+    "kcal": 393,
+    "protein": 33,
+    "carbs": 0,
+    "fat": 29,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Grana Padano Casa Azzurra",
+    "kcal": 393,
+    "protein": 33,
+    "carbs": 0,
+    "fat": 29,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Granada",
+    "kcal": 74,
+    "protein": 1.7,
+    "carbs": 14,
+    "fat": 1.2,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Griego Ligero Natural Hacendado",
+    "kcal": 60,
+    "protein": 5.8,
+    "carbs": 4.7,
+    "fat": 2,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Guacamole",
+    "kcal": 139,
+    "protein": 1.9,
+    "carbs": 2,
+    "fat": 13.7,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Guacamole Hacendado",
+    "kcal": 139,
+    "protein": 1.9,
+    "carbs": 2,
+    "fat": 13.7,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Guisantes congelados",
+    "kcal": 69,
+    "protein": 5.4,
+    "carbs": 11,
+    "fat": 0.4,
+    "category": "LEGUMBRES"
+  },
+  {
+    "name": "Harina de almendra HSN",
+    "kcal": 604,
+    "protein": 23,
+    "carbs": 8.8,
+    "fat": 53,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Harina De Arroz Hidrolizada HSN",
+    "kcal": 379,
+    "protein": 7.7,
+    "carbs": 84,
+    "fat": 1.3,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Harina de Arroz HSN",
+    "kcal": 394,
+    "protein": 9.4,
+    "carbs": 87,
+    "fat": 0.9,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Harina de avena HSN",
+    "kcal": 387,
+    "protein": 13,
+    "carbs": 68,
+    "fat": 7,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Harina de avena sabor chocolate HSN",
+    "kcal": 376,
+    "protein": 12,
+    "carbs": 66,
+    "fat": 7.1,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Harina de avena sabores",
+    "kcal": 362,
+    "protein": 14,
+    "carbs": 54,
+    "fat": 10,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Harina de garbanzo HSN",
+    "kcal": 380,
+    "protein": 22,
+    "carbs": 58,
+    "fat": 6.7,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Harina de trigo",
+    "kcal": 337,
+    "protein": 10,
+    "carbs": 72,
+    "fat": 1,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Harina integral de trigo",
+    "kcal": 306,
+    "protein": 12,
+    "carbs": 60,
+    "fat": 2,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Harina, arroz hsn",
+    "kcal": 365,
+    "protein": 8,
+    "carbs": 81,
+    "fat": 1,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Havarti Hacendado",
+    "kcal": 396,
+    "protein": 19,
+    "carbs": 1.3,
+    "fat": 35,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Havarti light Hacendado",
+    "kcal": 267,
+    "protein": 27,
+    "carbs": 1.6,
+    "fat": 17,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Hazelnut & cocos butter HSN",
+    "kcal": 650,
+    "protein": 10.1,
+    "carbs": 19.7,
+    "fat": 59,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Hidrolysed Rice Flour HSN",
+    "kcal": 383,
+    "protein": 7.7,
+    "carbs": 85,
+    "fat": 1.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Hígado de bacalao Carrefour",
+    "kcal": 576,
+    "protein": 4.9,
+    "carbs": 1.8,
+    "fat": 61,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Higado de cerdo",
+    "kcal": 117,
+    "protein": 21,
+    "carbs": 0,
+    "fat": 3.7,
+    "category": "CARNES"
+  },
+  {
+    "name": "Higado de pollo",
+    "kcal": 115,
+    "protein": 19,
+    "carbs": 0,
+    "fat": 4.3,
+    "category": "CARNES"
+  },
+  {
+    "name": "Higado de ternera",
+    "kcal": 132,
+    "protein": 21,
+    "carbs": 1.9,
+    "fat": 4.5,
+    "category": "CARNES"
+  },
+  {
+    "name": "High Protein Dark Choco HSN",
+    "kcal": 400,
+    "protein": 22.6,
+    "carbs": 11.2,
+    "fat": 29.4,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "High protein fraise Milbona",
+    "kcal": 66,
+    "protein": 12.4,
+    "carbs": 3.3,
+    "fat": 0.4,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "High Protein Frutas con Trozos Envia",
+    "kcal": 54,
+    "protein": 8.3,
+    "carbs": 4.5,
+    "fat": 0.3,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "High Protein Milk Product - Blueberry Lidl",
+    "kcal": 67,
+    "protein": 10,
+    "carbs": 6,
+    "fat": 0.3,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "High protein porridge HSN",
+    "kcal": 371,
+    "protein": 44,
+    "carbs": 34,
+    "fat": 6.6,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "High Protein Porridge Vegan Maple HSN",
+    "kcal": 376,
+    "protein": 47,
+    "carbs": 30,
+    "fat": 7.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "High Protein Quark Dessert Raspberry K-Class",
+    "kcal": 68,
+    "protein": 12.6,
+    "carbs": 3.4,
+    "fat": 0.4,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "High Protein Quark Vainilla Milbona",
+    "kcal": 82,
+    "protein": 12.5,
+    "carbs": 6.8,
+    "fat": 0.5,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "High Protein Rice Cream HSN",
+    "kcal": 355,
+    "protein": 47,
+    "carbs": 36,
+    "fat": 2.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "High Protein Rice Cream Speculoos HSN",
+    "kcal": 367,
+    "protein": 46,
+    "carbs": 42,
+    "fat": 1.7,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "HSN",
+    "kcal": 386,
+    "protein": 13,
+    "carbs": 68,
+    "fat": 6.9,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Hsn evocasein 2.0",
+    "kcal": 356,
+    "protein": 82,
+    "carbs": 3.5,
+    "fat": 1.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Hsn Evoenergy Maxigel",
+    "kcal": 343,
+    "protein": 0,
+    "carbs": 85.7,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "HSN evowehey",
+    "kcal": 415,
+    "protein": 81,
+    "carbs": 7.5,
+    "fat": 6.8,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Hsn ISOLATE 2.0 Soja",
+    "kcal": 386,
+    "protein": 90,
+    "carbs": 2.3,
+    "fat": 1.9,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Hsn nougat",
+    "kcal": 365,
+    "protein": 77,
+    "carbs": 6.9,
+    "fat": 3.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "HSN Pea Protein Isolate 2.0",
+    "kcal": 422,
+    "protein": 84,
+    "carbs": 0.2,
+    "fat": 9.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "HSN PREMIUM SPORT NUTRICION",
+    "kcal": 385,
+    "protein": 28,
+    "carbs": 59,
+    "fat": 4.1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Hsn Pudding",
+    "kcal": 328,
+    "protein": 72,
+    "carbs": 6.5,
+    "fat": 1.6,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Hsn Sport EvoSeries",
+    "kcal": 360,
+    "protein": 76,
+    "carbs": 5.9,
+    "fat": 3.6,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Huevo entero",
+    "kcal": 147,
+    "protein": 12.5,
+    "carbs": 0.7,
+    "fat": 9.9,
+    "category": "Otros"
+  },
+  {
+    "name": "Huevo grande",
+    "kcal": 147,
+    "protein": 12.5,
+    "carbs": 0.7,
+    "fat": 9.9,
+    "category": "HUEVOS"
+  },
+  {
+    "name": "Huevo mediano",
+    "kcal": 147,
+    "protein": 12.5,
+    "carbs": 0.7,
+    "fat": 9.9,
+    "category": "HUEVOS"
+  },
+  {
+    "name": "Huevos cocidos Hacendado",
+    "kcal": 123,
+    "protein": 13,
+    "carbs": 0.4,
+    "fat": 7.7,
+    "category": "HUEVOS"
+  },
+  {
+    "name": "Huile d'olive vierge extra Espagne Auchan",
+    "kcal": 900,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 100,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Hummus",
+    "kcal": 301,
+    "protein": 6,
+    "carbs": 11.1,
+    "fat": 25.8,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Hummus de garbanzos receta clásica Hacendado",
+    "kcal": 301,
+    "protein": 6,
+    "carbs": 11.1,
+    "fat": 25.8,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Hydrolysed Clear Protein HSN",
+    "kcal": 359,
+    "protein": 88,
+    "carbs": 0.8,
+    "fat": 0.4,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Hydrolysed collagen HSN",
+    "kcal": 605,
+    "protein": 6,
+    "carbs": 8,
+    "fat": 61,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Hydrolysed Rice Flour HSN",
+    "kcal": 365,
+    "protein": 10,
+    "carbs": 77,
+    "fat": 1.9,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Instant Cocoa Powder Vegan HSN",
+    "kcal": 121,
+    "protein": 5.3,
+    "carbs": 12,
+    "fat": 5.8,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Jamon cocido",
+    "kcal": 101,
+    "protein": 18.6,
+    "carbs": 0.9,
+    "fat": 2.5,
+    "category": "FIAMBRES"
+  },
+  {
+    "name": "jamón cocido extra 1954 elPozo",
+    "kcal": 111,
+    "protein": 19.4,
+    "carbs": 0.5,
+    "fat": 3.5,
+    "category": "FIAMBRES"
+  },
+  {
+    "name": "Jamón cocido extra finas lonchas Hacendado",
+    "kcal": 101,
+    "protein": 18.6,
+    "carbs": 0.9,
+    "fat": 2.5,
+    "category": "FIAMBRES"
+  },
+  {
+    "name": "Jamón cocido extra Noel",
+    "kcal": 126,
+    "protein": 18,
+    "carbs": 1.4,
+    "fat": 5.4,
+    "category": "CARNES"
+  },
+  {
+    "name": "Jamón cocido lonchas Hacendado",
+    "kcal": 102,
+    "protein": 19,
+    "carbs": 0.9,
+    "fat": 2.5,
+    "category": "FIAMBRES"
+  },
+  {
+    "name": "Jamón curado clásico Campofrio",
+    "kcal": 212,
+    "protein": 30,
+    "carbs": 0.5,
+    "fat": 10,
+    "category": "FIAMBRES"
+  },
+  {
+    "name": "Jamón de Trevélez Antonio Alvarez",
+    "kcal": 267,
+    "protein": 33,
+    "carbs": 0,
+    "fat": 15,
+    "category": "FIAMBRES"
+  },
+  {
+    "name": "Jamón Serano Lonchas Incarlopsa",
+    "kcal": 262,
+    "protein": 31,
+    "carbs": 0.8,
+    "fat": 15,
+    "category": "FIAMBRES"
+  },
+  {
+    "name": "Jamon serrano",
+    "kcal": 248,
+    "protein": 33.5,
+    "carbs": 1,
+    "fat": 12.2,
+    "category": "FIAMBRES"
+  },
+  {
+    "name": "Jamón Serrano Comercial Logística Calamocha",
+    "kcal": 250,
+    "protein": 33.3,
+    "carbs": 0.5,
+    "fat": 12.8,
+    "category": "FIAMBRES"
+  },
+  {
+    "name": "Jamón serrano gran reserva Costa Brava",
+    "kcal": 259,
+    "protein": 35,
+    "carbs": 0.5,
+    "fat": 13,
+    "category": "FIAMBRES"
+  },
+  {
+    "name": "Jamón Serrano Incarlopsa",
+    "kcal": 248,
+    "protein": 33.5,
+    "carbs": 1,
+    "fat": 12.2,
+    "category": "FIAMBRES"
+  },
+  {
+    "name": "Judias rojas cocidas",
+    "kcal": 123,
+    "protein": 8.7,
+    "carbs": 21,
+    "fat": 0.5,
+    "category": "LEGUMBRES"
+  },
+  {
+    "name": "Judias Verdes congeladas",
+    "kcal": 26,
+    "protein": 1.9,
+    "carbs": 4.2,
+    "fat": 0.2,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Kefir milk",
+    "kcal": 46,
+    "protein": 4,
+    "carbs": 4,
+    "fat": 1.5,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Kefir natural",
+    "kcal": 58,
+    "protein": 3.3,
+    "carbs": 4.5,
+    "fat": 3,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Kelp Powder HSN",
+    "kcal": 304,
+    "protein": 4.9,
+    "carbs": 63,
+    "fat": 3.6,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Ketchup",
+    "kcal": 103,
+    "protein": 1.2,
+    "carbs": 24,
+    "fat": 0.2,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Ketchup ecológico Heinz",
+    "kcal": 108,
+    "protein": 1.4,
+    "carbs": 25.3,
+    "fat": 0.1,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Ketchup Hacendado",
+    "kcal": 113,
+    "protein": 1.3,
+    "carbs": 27,
+    "fat": 0,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Ketchup Heinz",
+    "kcal": 99,
+    "protein": 1.2,
+    "carbs": 23.2,
+    "fat": 0.1,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Ketchup Sauce HSN",
+    "kcal": 29,
+    "protein": 2,
+    "carbs": 5.3,
+    "fat": 0,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Keto Cakes HSN",
+    "kcal": 520,
+    "protein": 39,
+    "carbs": 7.8,
+    "fat": 37,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Keto whey protein HSN",
+    "kcal": 439,
+    "protein": 66,
+    "carbs": 7.7,
+    "fat": 16,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Kiwi",
+    "kcal": 42,
+    "protein": 0.7,
+    "carbs": 9.8,
+    "fat": 0,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Kiwi Sungold Zespri",
+    "kcal": 70,
+    "protein": 1,
+    "carbs": 15.8,
+    "fat": 0.3,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "lait oresident President",
+    "kcal": 46,
+    "protein": 3.1,
+    "carbs": 4.8,
+    "fat": 1.6,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Lait sans lactose Candia",
+    "kcal": 41,
+    "protein": 3.3,
+    "carbs": 4.8,
+    "fat": 1,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Langostinos cocidos",
+    "kcal": 90,
+    "protein": 20,
+    "carbs": 0,
+    "fat": 1.1,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Lasagne aux oeufs Barilla",
+    "kcal": 364,
+    "protein": 14,
+    "carbs": 68,
+    "fat": 4,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Leche de cabra semidesnatada Hacendado",
+    "kcal": 46,
+    "protein": 3.4,
+    "carbs": 4.5,
+    "fat": 1.6,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Leche de nueces omega 3 28/3 Puleva",
+    "kcal": 50,
+    "protein": 2.8,
+    "carbs": 4.4,
+    "fat": 2.3,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Leche desnatada",
+    "kcal": 35,
+    "protein": 3.2,
+    "carbs": 4.9,
+    "fat": 0.3,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Leche desnatada +proteinas Hacendado",
+    "kcal": 44,
+    "protein": 6,
+    "carbs": 4.6,
+    "fat": 0.2,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Leche desnatada Proteínas y Calcio Hacendado",
+    "kcal": 44,
+    "protein": 6,
+    "carbs": 4.6,
+    "fat": 0.2,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Leche Desnatada, Sin Lactosa Milbona",
+    "kcal": 34,
+    "protein": 3.3,
+    "carbs": 4.8,
+    "fat": 0.2,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Leche entera",
+    "kcal": 61,
+    "protein": 3.6,
+    "carbs": 4.6,
+    "fat": 3.1,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Leche entera Hacendado",
+    "kcal": 63,
+    "protein": 3.1,
+    "carbs": 4.6,
+    "fat": 3.6,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Leche fresca entera Hacendado",
+    "kcal": 62,
+    "protein": 3.1,
+    "carbs": 4.5,
+    "fat": 3.5,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Leche semi desnatada",
+    "kcal": 46,
+    "protein": 3.1,
+    "carbs": 4.8,
+    "fat": 1.6,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Leche Semi desnatada Central Lechera Asturia",
+    "kcal": 46,
+    "protein": 3.2,
+    "carbs": 4.7,
+    "fat": 1.6,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Leche semidesnatada +proteinas Hacendado",
+    "kcal": 56,
+    "protein": 6,
+    "carbs": 4.6,
+    "fat": 1.5,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Leche semidesnatada Central Lechera Asturian",
+    "kcal": 46,
+    "protein": 3.2,
+    "carbs": 4.7,
+    "fat": 1.6,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Leche semidesnatada Hacendado",
+    "kcal": 46,
+    "protein": 3.1,
+    "carbs": 4.8,
+    "fat": 1.6,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Leche sin lactosa desnatada",
+    "kcal": 36,
+    "protein": 3.4,
+    "carbs": 4.8,
+    "fat": 0.3,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Lechuga",
+    "kcal": 17,
+    "protein": 0.9,
+    "carbs": 3,
+    "fat": 0.1,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Lentejas cocidas",
+    "kcal": 104,
+    "protein": 9,
+    "carbs": 16,
+    "fat": 0.4,
+    "category": "LEGUMBRES"
+  },
+  {
+    "name": "Lentejas coral Carrefour",
+    "kcal": 282,
+    "protein": 25,
+    "carbs": 43,
+    "fat": 1.1,
+    "category": "LEGUMBRES"
+  },
+  {
+    "name": "Lentejas crudas",
+    "kcal": 314,
+    "protein": 24,
+    "carbs": 52,
+    "fat": 1.1,
+    "category": "LEGUMBRES"
+  },
+  {
+    "name": "Lentejas verdinas Carrefour BIO",
+    "kcal": 311,
+    "protein": 24,
+    "carbs": 50,
+    "fat": 1.7,
+    "category": "LEGUMBRES"
+  },
+  {
+    "name": "Lentil High Protein Hummus Powder HSN",
+    "kcal": 362,
+    "protein": 59,
+    "carbs": 14,
+    "fat": 7.8,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Levadura nutricional",
+    "kcal": 305,
+    "protein": 45,
+    "carbs": 20,
+    "fat": 5,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Lomo de pavo",
+    "kcal": 208,
+    "protein": 40,
+    "carbs": 0.7,
+    "fat": 5,
+    "category": "FIAMBRES"
+  },
+  {
+    "name": "Lomo embuchado",
+    "kcal": 199,
+    "protein": 38,
+    "carbs": 0.5,
+    "fat": 5,
+    "category": "FIAMBRES"
+  },
+  {
+    "name": "Lomo Hacendado",
+    "kcal": 199,
+    "protein": 38,
+    "carbs": 0.5,
+    "fat": 5,
+    "category": "CARNES"
+  },
+  {
+    "name": "Lubina",
+    "kcal": 99,
+    "protein": 18,
+    "carbs": 0,
+    "fat": 3,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Macarrones",
+    "kcal": 354,
+    "protein": 13,
+    "carbs": 72,
+    "fat": 1.5,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Macarrones integrales Penne Rigate Barilla",
+    "kcal": 331,
+    "protein": 13,
+    "carbs": 64,
+    "fat": 2.5,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Maiz dulce en lata",
+    "kcal": 94,
+    "protein": 3,
+    "carbs": 17,
+    "fat": 1.5,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Maíz dulce Freshona",
+    "kcal": 72,
+    "protein": 2.6,
+    "carbs": 11.5,
+    "fat": 1.7,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Maíz dulce Hacendado",
+    "kcal": 68,
+    "protein": 2.6,
+    "carbs": 9.3,
+    "fat": 2.3,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Maiz Freshona",
+    "kcal": 79,
+    "protein": 2.5,
+    "carbs": 14,
+    "fat": 1.4,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Maltodextrina",
+    "kcal": 380,
+    "protein": 0,
+    "carbs": 95,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Maltodextrina powder HSN",
+    "kcal": 380,
+    "protein": 0,
+    "carbs": 95,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Mandarina",
+    "kcal": 39,
+    "protein": 0.8,
+    "carbs": 9,
+    "fat": 0,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Mango",
+    "kcal": 63,
+    "protein": 0.8,
+    "carbs": 14,
+    "fat": 0.4,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Manteca de almendras HSN",
+    "kcal": 630,
+    "protein": 25.4,
+    "carbs": 6.5,
+    "fat": 55.8,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Mantequilla",
+    "kcal": 743,
+    "protein": 0.7,
+    "carbs": 0.6,
+    "fat": 82,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Mantequilla de cacahuete orgánica HSN",
+    "kcal": 579,
+    "protein": 29.6,
+    "carbs": 11.6,
+    "fat": 46,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Mantequilla de cacahuete pura Jardin Bio éti",
+    "kcal": 615,
+    "protein": 27,
+    "carbs": 12,
+    "fat": 51,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Manzana",
+    "kcal": 56,
+    "protein": 0.3,
+    "carbs": 13.8,
+    "fat": 0,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Marmellata Arance amare Rigoni di Asiago",
+    "kcal": 192,
+    "protein": 0,
+    "carbs": 48,
+    "fat": 0,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Maxi pavo finas lonchas Hacendado",
+    "kcal": 83,
+    "protein": 12.8,
+    "carbs": 6.8,
+    "fat": 0.5,
+    "category": "CARNES"
+  },
+  {
+    "name": "Mayonesa sabor tradicional Heinz",
+    "kcal": 365,
+    "protein": 0.7,
+    "carbs": 7.3,
+    "fat": 37,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Mejillones al natural",
+    "kcal": 107,
+    "protein": 18,
+    "carbs": 3,
+    "fat": 2.6,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Melocoton",
+    "kcal": 37,
+    "protein": 0.9,
+    "carbs": 8,
+    "fat": 0.2,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Melon",
+    "kcal": 33,
+    "protein": 0.8,
+    "carbs": 7,
+    "fat": 0.2,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Merluza",
+    "kcal": 71,
+    "protein": 15.9,
+    "carbs": 0,
+    "fat": 0.9,
+    "category": "Otros"
+  },
+  {
+    "name": "Merluza congelada",
+    "kcal": 75,
+    "protein": 15.1,
+    "carbs": 0.8,
+    "fat": 1.3,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Merluza empanada Hacendado",
+    "kcal": 169,
+    "protein": 10.3,
+    "carbs": 16.3,
+    "fat": 6.9,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Mermelada Arándanos Hacendado",
+    "kcal": 200,
+    "protein": 0.5,
+    "carbs": 49,
+    "fat": 0.2,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Mermelada de albaricoque Hacendado",
+    "kcal": 194,
+    "protein": 0.5,
+    "carbs": 48,
+    "fat": 0,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Mermelada de naranja amarga Hacendado",
+    "kcal": 234,
+    "protein": 0.5,
+    "carbs": 58,
+    "fat": 0,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Mermelada Extra Melocotón Boulé",
+    "kcal": 70,
+    "protein": 0.5,
+    "carbs": 17,
+    "fat": 0,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Mermelada fresa hacendado",
+    "kcal": 195,
+    "protein": 0.4,
+    "carbs": 48,
+    "fat": 0.1,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Micellar casein HSN",
+    "kcal": 380,
+    "protein": 90,
+    "carbs": 1.5,
+    "fat": 1.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Mie noodles Vitasia",
+    "kcal": 354,
+    "protein": 11.1,
+    "carbs": 74.8,
+    "fat": 1.2,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Miel",
+    "kcal": 331,
+    "protein": 0.3,
+    "carbs": 82.4,
+    "fat": 0,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Milk Caramel Flavoured Syrup HSN",
+    "kcal": 28,
+    "protein": 0,
+    "carbs": 7,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Mini taquitos jamón Incarlopsa",
+    "kcal": 234,
+    "protein": 33.7,
+    "carbs": 1,
+    "fat": 10.6,
+    "category": "CARNES"
+  },
+  {
+    "name": "Mix de frutos secos al natural Alesto",
+    "kcal": 629,
+    "protein": 20.4,
+    "carbs": 6.4,
+    "fat": 58,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Mix frutos rojos Hacendado",
+    "kcal": 26,
+    "protein": 0.9,
+    "carbs": 5.5,
+    "fat": 0,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Mix frutos rojos y guindas Freshona",
+    "kcal": 52,
+    "protein": 0.9,
+    "carbs": 10.6,
+    "fat": 0.7,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Mixed Nuts Alesto",
+    "kcal": 632,
+    "protein": 20.1,
+    "carbs": 6.6,
+    "fat": 58.3,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Mostaza",
+    "kcal": 72,
+    "protein": 4,
+    "carbs": 5,
+    "fat": 4,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "mousse + proteinas chcocolate hacendado",
+    "kcal": 72,
+    "protein": 10,
+    "carbs": 4.5,
+    "fat": 1.5,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Mousse chocolate +proteinas Hacendado",
+    "kcal": 74,
+    "protein": 10,
+    "carbs": 5,
+    "fat": 1.6,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Mozzarella fresca",
+    "kcal": 220,
+    "protein": 18,
+    "carbs": 1,
+    "fat": 16,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "mozzarella Galbani",
+    "kcal": 238,
+    "protein": 17,
+    "carbs": 2,
+    "fat": 18,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Mozzarella light",
+    "kcal": 183,
+    "protein": 24,
+    "carbs": 1.5,
+    "fat": 9,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Mozzarella Pizza-Roma Hacendado",
+    "kcal": 283,
+    "protein": 21,
+    "carbs": 2.5,
+    "fat": 21,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "NAKD nākd",
+    "kcal": 423,
+    "protein": 12,
+    "carbs": 42,
+    "fat": 23,
+    "category": "LEGUMBRES"
+  },
+  {
+    "name": "Naranja",
+    "kcal": 38,
+    "protein": 0.8,
+    "carbs": 8.6,
+    "fat": 0,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Noir Intense Lindt",
+    "kcal": 547,
+    "protein": 9.5,
+    "carbs": 35,
+    "fat": 41,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Nueces",
+    "kcal": 703,
+    "protein": 17,
+    "carbs": 2.2,
+    "fat": 69.6,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Nueces de Brasil sin cáscara Alesto",
+    "kcal": 677,
+    "protein": 16.9,
+    "carbs": 2.7,
+    "fat": 66.5,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Nueces sin cáscara Alesto",
+    "kcal": 699,
+    "protein": 15.5,
+    "carbs": 3.7,
+    "fat": 69.1,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Nuez natural pelada Hacendado",
+    "kcal": 703,
+    "protein": 17,
+    "carbs": 2.2,
+    "fat": 69.6,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Nut Choco Protein Spread Duo HSN",
+    "kcal": 565,
+    "protein": 21.1,
+    "carbs": 33,
+    "fat": 38.7,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Nutella Biscuits Nutella",
+    "kcal": 511,
+    "protein": 7.9,
+    "carbs": 64,
+    "fat": 24.8,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "ñordos Hacendado",
+    "kcal": 172,
+    "protein": 4.5,
+    "carbs": 37.6,
+    "fat": 0.4,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Oat Flakes (Copos Avena) HSN",
+    "kcal": 340,
+    "protein": 14,
+    "carbs": 54,
+    "fat": 7.5,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Oat Flour 2.0 Brownie HSN",
+    "kcal": 367,
+    "protein": 14,
+    "carbs": 53,
+    "fat": 11,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Oat flour 2.0 HSN",
+    "kcal": 380,
+    "protein": 13,
+    "carbs": 66,
+    "fat": 7.1,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Oat Flour 2.0 Snickerdoodle HSN",
+    "kcal": 382,
+    "protein": 12,
+    "carbs": 68,
+    "fat": 6.9,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "OAT FLOUR CHOCO COOKIES HSN",
+    "kcal": 376,
+    "protein": 12,
+    "carbs": 66,
+    "fat": 7.1,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Oat flour HSN",
+    "kcal": 386,
+    "protein": 13,
+    "carbs": 68,
+    "fat": 6.9,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Orangen Marmelade Maribel",
+    "kcal": 235,
+    "protein": 0.1,
+    "carbs": 58.1,
+    "fat": 0.2,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "organic GREEK YOGURT plain KIRKLAND Signatur",
+    "kcal": 59,
+    "protein": 10.6,
+    "carbs": 4.1,
+    "fat": 0,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Organic Peanut Butter (crunchy) HSN",
+    "kcal": 576,
+    "protein": 29,
+    "carbs": 11.6,
+    "fat": 46,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Pan blanco",
+    "kcal": 241,
+    "protein": 7.5,
+    "carbs": 51,
+    "fat": 0.8,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Pan de molde 100% integral",
+    "kcal": 232,
+    "protein": 11,
+    "carbs": 37,
+    "fat": 4.4,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Pan de molde 100% integral Hacendado",
+    "kcal": 232,
+    "protein": 11.3,
+    "carbs": 36,
+    "fat": 4.8,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Pan de molde bimbo 100% integral",
+    "kcal": 241,
+    "protein": 11,
+    "carbs": 42,
+    "fat": 3.2,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Pan de molde blanco",
+    "kcal": 231,
+    "protein": 10,
+    "carbs": 42,
+    "fat": 2.6,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Pan de molde con 52% centeno Hacendado",
+    "kcal": 250,
+    "protein": 10,
+    "carbs": 35,
+    "fat": 7.8,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Pan de molde vital Schär",
+    "kcal": 245,
+    "protein": 4.5,
+    "carbs": 36,
+    "fat": 9.2,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Pan estilo Bagel",
+    "kcal": 280,
+    "protein": 11,
+    "carbs": 53,
+    "fat": 2.7,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Pan fibra y sésamo Hacendado",
+    "kcal": 361,
+    "protein": 13,
+    "carbs": 60.1,
+    "fat": 7.6,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Pan integral",
+    "kcal": 247,
+    "protein": 13,
+    "carbs": 41,
+    "fat": 3.4,
+    "category": "Otros"
+  },
+  {
+    "name": "Pan integral de centeno",
+    "kcal": 214,
+    "protein": 8,
+    "carbs": 42,
+    "fat": 1.5,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Pan rallado",
+    "kcal": 346,
+    "protein": 12,
+    "carbs": 70,
+    "fat": 2,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Pan tostado clasico hacendado",
+    "kcal": 389,
+    "protein": 11.9,
+    "carbs": 73.8,
+    "fat": 5.1,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Panga",
+    "kcal": 87,
+    "protein": 15,
+    "carbs": 0,
+    "fat": 3,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Papas (versión 1)",
+    "kcal": 78,
+    "protein": 2,
+    "carbs": 17.4,
+    "fat": 0.1,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Papas (versión 2)",
+    "kcal": 78,
+    "protein": 2,
+    "carbs": 17.4,
+    "fat": 0,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Pasas",
+    "kcal": 333,
+    "protein": 3,
+    "carbs": 79,
+    "fat": 0.5,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Pasta (en seco)",
+    "kcal": 359,
+    "protein": 12.5,
+    "carbs": 71,
+    "fat": 1.5,
+    "category": "Otros"
+  },
+  {
+    "name": "Pasta HSN",
+    "kcal": 140,
+    "protein": 6.1,
+    "carbs": 17.4,
+    "fat": 5.1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Pasta integral cruda",
+    "kcal": 327,
+    "protein": 13,
+    "carbs": 63,
+    "fat": 2.5,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Patata cocida",
+    "kcal": 77,
+    "protein": 2,
+    "carbs": 17,
+    "fat": 0.1,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Patatas Cocidas Hacendado",
+    "kcal": 49,
+    "protein": 1.2,
+    "carbs": 11,
+    "fat": 0,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Pea Protein Isolate 2 Vegan HSN",
+    "kcal": 405,
+    "protein": 80,
+    "carbs": 4,
+    "fat": 7.7,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Pea Protein Isolate 2.0 HSN",
+    "kcal": 409,
+    "protein": 80,
+    "carbs": 5,
+    "fat": 7.7,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Pea Protein Isolate HSN",
+    "kcal": 380,
+    "protein": 71,
+    "carbs": 5.2,
+    "fat": 8.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Pea Protein Isolate Mango Matcha HSN",
+    "kcal": 408,
+    "protein": 81,
+    "carbs": 4,
+    "fat": 7.6,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Peanut buter HSN",
+    "kcal": 592,
+    "protein": 28,
+    "carbs": 12,
+    "fat": 48,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Peanut butter caramelised HSN",
+    "kcal": 627,
+    "protein": 28,
+    "carbs": 14,
+    "fat": 51,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Peanut butter chocolate HSN",
+    "kcal": 575,
+    "protein": 27,
+    "carbs": 11,
+    "fat": 47,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Peanut Butter Extra Creamy HSN",
+    "kcal": 591,
+    "protein": 28,
+    "carbs": 13.3,
+    "fat": 47.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Peanut Butter HSN",
+    "kcal": 579,
+    "protein": 29.6,
+    "carbs": 11.6,
+    "fat": 46,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Pecan Nuts Alesto Selection",
+    "kcal": 705,
+    "protein": 11.5,
+    "carbs": 4.2,
+    "fat": 71.4,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Pechuga de Pavo Cocida 92% Hacendado",
+    "kcal": 92,
+    "protein": 19.6,
+    "carbs": 0.8,
+    "fat": 1.2,
+    "category": "CARNES"
+  },
+  {
+    "name": "pechuga de pavo el pozo 1954 Elpozo",
+    "kcal": 88,
+    "protein": 20.3,
+    "carbs": 0.5,
+    "fat": 0.5,
+    "category": "CARNES"
+  },
+  {
+    "name": "Pechuga de pavo fiambre",
+    "kcal": 76,
+    "protein": 16.5,
+    "carbs": 1.3,
+    "fat": 0.5,
+    "category": "FIAMBRES"
+  },
+  {
+    "name": "Pechuga de pavo finas lonchas Hacendado",
+    "kcal": 78,
+    "protein": 17.8,
+    "carbs": 0.6,
+    "fat": 0.5,
+    "category": "FIAMBRES"
+  },
+  {
+    "name": "Pechuga de pavo fresca",
+    "kcal": 97,
+    "protein": 22,
+    "carbs": 0,
+    "fat": 1,
+    "category": "CARNES"
+  },
+  {
+    "name": "Pechuga de pollo",
+    "kcal": 103,
+    "protein": 22,
+    "carbs": 0,
+    "fat": 1.7,
+    "category": "CARNES"
+  },
+  {
+    "name": "Pechuga de Pollo 92% Hacendado",
+    "kcal": 92,
+    "protein": 18.1,
+    "carbs": 1,
+    "fat": 1.7,
+    "category": "FIAMBRES"
+  },
+  {
+    "name": "pechuguita pollo La Carloteña",
+    "kcal": 127,
+    "protein": 26.8,
+    "carbs": 0.4,
+    "fat": 2,
+    "category": "FIAMBRES"
+  },
+  {
+    "name": "Penne rigate semi-complets Carrefour BIO",
+    "kcal": 336,
+    "protein": 13,
+    "carbs": 67,
+    "fat": 1.8,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Pepinillo agridulce grandes Freshona",
+    "kcal": 27,
+    "protein": 1,
+    "carbs": 5.6,
+    "fat": 0.1,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Pepinillos agridulces Hacendado",
+    "kcal": 52,
+    "protein": 0.9,
+    "carbs": 11,
+    "fat": 0.5,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Pepinillos pequeños Hacendado",
+    "kcal": 19,
+    "protein": 1.3,
+    "carbs": 2.3,
+    "fat": 0.5,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Pepino",
+    "kcal": 15,
+    "protein": 0.6,
+    "carbs": 2.9,
+    "fat": 0.1,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Pera",
+    "kcal": 50,
+    "protein": 0.5,
+    "carbs": 12,
+    "fat": 0,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Pescada Thon à la sauce tomate Pescada",
+    "kcal": 239,
+    "protein": 14.1,
+    "carbs": 9,
+    "fat": 16.3,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Pesto alla Genovese Italiamo",
+    "kcal": 461,
+    "protein": 4.5,
+    "carbs": 8.7,
+    "fat": 45.4,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Petit écolier LU",
+    "kcal": 495,
+    "protein": 5.6,
+    "carbs": 62,
+    "fat": 25,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Pimiento rojo",
+    "kcal": 31,
+    "protein": 1,
+    "carbs": 6,
+    "fat": 0.3,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Pimientos del piquillo con ajo Freshona",
+    "kcal": 32,
+    "protein": 1.5,
+    "carbs": 5.4,
+    "fat": 0.5,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Piña en su jugo",
+    "kcal": 54,
+    "protein": 0.4,
+    "carbs": 13.2,
+    "fat": 0,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Piña en su Jugo Hacendado",
+    "kcal": 55,
+    "protein": 0.4,
+    "carbs": 13.2,
+    "fat": 0.1,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Pistachos",
+    "kcal": 549,
+    "protein": 20,
+    "carbs": 16,
+    "fat": 45,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Plátano",
+    "kcal": 92,
+    "protein": 1.4,
+    "carbs": 21.7,
+    "fat": 0,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Pollo relleno asado al horno La Carloteña",
+    "kcal": 166,
+    "protein": 18.5,
+    "carbs": 1.7,
+    "fat": 9.5,
+    "category": "CARNES"
+  },
+  {
+    "name": "PORRIDGE HSN",
+    "kcal": 373,
+    "protein": 43,
+    "carbs": 35,
+    "fat": 6.8,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Premium essential HSN",
+    "kcal": 383,
+    "protein": 88,
+    "carbs": 3.8,
+    "fat": 1.8,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Premium essential nutrition HSN",
+    "kcal": 405,
+    "protein": 53,
+    "carbs": 9.9,
+    "fat": 17,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Premium sport nutrition HSN",
+    "kcal": 364,
+    "protein": 78,
+    "carbs": 5.5,
+    "fat": 3.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Premiun sport HSN",
+    "kcal": 353,
+    "protein": 85,
+    "carbs": 1.1,
+    "fat": 0.9,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Premiun whey protein HSN",
+    "kcal": 416,
+    "protein": 81,
+    "carbs": 7.7,
+    "fat": 6.8,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Preparado tortitas +proteinas Hacendado",
+    "kcal": 359,
+    "protein": 46,
+    "carbs": 27.1,
+    "fat": 7.4,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Príncipe crema de chocolate LU",
+    "kcal": 462,
+    "protein": 6.2,
+    "carbs": 71,
+    "fat": 17,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Príncipe Galletas de Chocolate LU",
+    "kcal": 450,
+    "protein": 6.3,
+    "carbs": 68,
+    "fat": 17,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Prote Leche HSN",
+    "kcal": 369,
+    "protein": 89,
+    "carbs": 1.1,
+    "fat": 1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Prote Soja HSN",
+    "kcal": 383,
+    "protein": 88,
+    "carbs": 3.7,
+    "fat": 1.8,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Protein bar HSN",
+    "kcal": 487,
+    "protein": 22,
+    "carbs": 39,
+    "fat": 27,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Protein Instant Coffee HSN",
+    "kcal": 340,
+    "protein": 66,
+    "carbs": 12,
+    "fat": 3.1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Protein Porridge HSN",
+    "kcal": 355,
+    "protein": 42,
+    "carbs": 34,
+    "fat": 5.7,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Protein Pudding Chocolate HSN",
+    "kcal": 329,
+    "protein": 68,
+    "carbs": 3.7,
+    "fat": 4.7,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Protein Pudding HSN",
+    "kcal": 330,
+    "protein": 67,
+    "carbs": 12,
+    "fat": 1.6,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Protein Pudding Lemon Cheesecake HSN",
+    "kcal": 329,
+    "protein": 71,
+    "carbs": 7.8,
+    "fat": 1.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Protein Shake HSN",
+    "kcal": 378,
+    "protein": 27,
+    "carbs": 61,
+    "fat": 2.9,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Protein Smoothie (red Fruits) HSN",
+    "kcal": 303,
+    "protein": 46,
+    "carbs": 28,
+    "fat": 0.8,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Protein spread dulce de leche HSN",
+    "kcal": 580,
+    "protein": 22,
+    "carbs": 33,
+    "fat": 40,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteína batido HSN",
+    "kcal": 366,
+    "protein": 78,
+    "carbs": 6,
+    "fat": 3.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "proteina blue raspberry HSN",
+    "kcal": 347,
+    "protein": 83,
+    "carbs": 2.6,
+    "fat": 0.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteína Caramelo HSN",
+    "kcal": 394,
+    "protein": 79,
+    "carbs": 5.6,
+    "fat": 6.2,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteina de guisante aislada HSN",
+    "kcal": 406,
+    "protein": 80,
+    "carbs": 5,
+    "fat": 7.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteína De Guisante Texturizado HSN",
+    "kcal": 409,
+    "protein": 82,
+    "carbs": 5.7,
+    "fat": 6.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteina de leche HSN",
+    "kcal": 380,
+    "protein": 90,
+    "carbs": 1.5,
+    "fat": 1.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteina de Soja",
+    "kcal": 381,
+    "protein": 86,
+    "carbs": 4.8,
+    "fat": 2,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteina de soja isolate 2.0 HSN",
+    "kcal": 382,
+    "protein": 86,
+    "carbs": 7.2,
+    "fat": 1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteina en polvo chocolate HSN",
+    "kcal": 341,
+    "protein": 66,
+    "carbs": 8.4,
+    "fat": 4.8,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteina Evowhey 2.0 HSN",
+    "kcal": 373,
+    "protein": 77,
+    "carbs": 6.2,
+    "fat": 4.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteina hidrolizada",
+    "kcal": 375,
+    "protein": 90,
+    "carbs": 1.3,
+    "fat": 1.1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteina HSN",
+    "kcal": 365,
+    "protein": 78,
+    "carbs": 5.8,
+    "fat": 3.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteína HSN Vainilla",
+    "kcal": 374,
+    "protein": 87,
+    "carbs": 3.2,
+    "fat": 1.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteina ISO",
+    "kcal": 377,
+    "protein": 88,
+    "carbs": 3.8,
+    "fat": 1.1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteína soja aislada HSN",
+    "kcal": 360,
+    "protein": 78,
+    "carbs": 4,
+    "fat": 3.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteína Vainilla HSN",
+    "kcal": 379,
+    "protein": 90,
+    "carbs": 2.4,
+    "fat": 1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteina vegana cafe frappe HSN",
+    "kcal": 403,
+    "protein": 79,
+    "carbs": 5,
+    "fat": 7.4,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteína vegana de soja HSN",
+    "kcal": 381,
+    "protein": 86,
+    "carbs": 4.8,
+    "fat": 2,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteina Whey",
+    "kcal": 360,
+    "protein": 73,
+    "carbs": 8.3,
+    "fat": 3.9,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteína Whey EVO SERIES HSN",
+    "kcal": 364,
+    "protein": 77,
+    "carbs": 6.6,
+    "fat": 3.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteína Y Crema Arroz Natillas HSN",
+    "kcal": 366,
+    "protein": 46,
+    "carbs": 42,
+    "fat": 1.6,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteínas HSN",
+    "kcal": 364,
+    "protein": 77,
+    "carbs": 6.6,
+    "fat": 3.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Proteínas pudding panna cotta HSN",
+    "kcal": 66,
+    "protein": 0,
+    "carbs": 13,
+    "fat": 1.6,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Pudding proteico",
+    "kcal": 74,
+    "protein": 10,
+    "carbs": 5.2,
+    "fat": 1.5,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Puerro",
+    "kcal": 33,
+    "protein": 1.5,
+    "carbs": 6,
+    "fat": 0.3,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Pulpa de tomate en su jugo. Carrefour",
+    "kcal": 24,
+    "protein": 1.1,
+    "carbs": 4.9,
+    "fat": 0,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Pulpo cocido",
+    "kcal": 89,
+    "protein": 18,
+    "carbs": 2,
+    "fat": 1,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Pumpkin seeds HSN",
+    "kcal": 602,
+    "protein": 32,
+    "carbs": 8.2,
+    "fat": 49,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Puré de tomate al natural Carrefour Classic",
+    "kcal": 29,
+    "protein": 1.4,
+    "carbs": 5.9,
+    "fat": 0,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Queso batido 0% desnatado",
+    "kcal": 47,
+    "protein": 8,
+    "carbs": 3.5,
+    "fat": 0.1,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Queso cottage light",
+    "kcal": 70,
+    "protein": 12.5,
+    "carbs": 3.1,
+    "fat": 0.8,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Queso cottage natural",
+    "kcal": 98,
+    "protein": 11.5,
+    "carbs": 2.8,
+    "fat": 4.5,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Queso crema Philadelphia original Mondelez I",
+    "kcal": 228,
+    "protein": 5.4,
+    "carbs": 4.3,
+    "fat": 21,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Queso crema suave Hacendado Suave",
+    "kcal": 239,
+    "protein": 4.2,
+    "carbs": 3.7,
+    "fat": 23,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Queso cremoso Philadelphia",
+    "kcal": 251,
+    "protein": 3.7,
+    "carbs": 2.8,
+    "fat": 25,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Queso feta Hacendado",
+    "kcal": 277,
+    "protein": 16,
+    "carbs": 1,
+    "fat": 23.2,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Queso fresco batido +proteinas Hacendado",
+    "kcal": 57,
+    "protein": 10,
+    "carbs": 3.1,
+    "fat": 0.5,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Queso fresco batido 0%",
+    "kcal": 50,
+    "protein": 8,
+    "carbs": 4,
+    "fat": 0.2,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Queso fresco batido desnatado Hacendado",
+    "kcal": 51,
+    "protein": 8,
+    "carbs": 3.5,
+    "fat": 0.5,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Queso fresco cottage Hacendado",
+    "kcal": 94,
+    "protein": 13,
+    "carbs": 1.6,
+    "fat": 4,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Queso grano padano",
+    "kcal": 413,
+    "protein": 29,
+    "carbs": 0,
+    "fat": 33,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Queso havarti light hacendado",
+    "kcal": 272,
+    "protein": 27.2,
+    "carbs": 2,
+    "fat": 17.2,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Queso parmesano",
+    "kcal": 384,
+    "protein": 33,
+    "carbs": 0,
+    "fat": 28,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Queso rallado parmesano Carrefour",
+    "kcal": 398,
+    "protein": 32,
+    "carbs": 0,
+    "fat": 30,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Queso rulo de cabra",
+    "kcal": 335,
+    "protein": 17,
+    "carbs": 1.1,
+    "fat": 29.2,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Queso untar light hacendado (versión 1)",
+    "kcal": 130,
+    "protein": 9,
+    "carbs": 4.8,
+    "fat": 8.3,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Queso untar light Hacendado (versión 2)",
+    "kcal": 130,
+    "protein": 9,
+    "carbs": 4.8,
+    "fat": 8.3,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Quinoa cocida",
+    "kcal": 109,
+    "protein": 4.4,
+    "carbs": 18.5,
+    "fat": 1.9,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Quinoa cruda",
+    "kcal": 342,
+    "protein": 14,
+    "carbs": 58,
+    "fat": 6,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Rape",
+    "kcal": 66,
+    "protein": 15,
+    "carbs": 0,
+    "fat": 0.7,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Raspberry-Pomegranate Milk Product Milbona",
+    "kcal": 67,
+    "protein": 10,
+    "carbs": 6,
+    "fat": 0.3,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Red Hot Sauce HSN",
+    "kcal": 24,
+    "protein": 1.6,
+    "carbs": 4.4,
+    "fat": 0,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Red Pesto Sauce HSN",
+    "kcal": 71,
+    "protein": 7,
+    "carbs": 3.7,
+    "fat": 3.1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Remolacha cocida",
+    "kcal": 28,
+    "protein": 1.2,
+    "carbs": 5.8,
+    "fat": 0,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Repollo",
+    "kcal": 22,
+    "protein": 1.3,
+    "carbs": 4,
+    "fat": 0.1,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Requeson",
+    "kcal": 92,
+    "protein": 11,
+    "carbs": 3,
+    "fat": 4,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Rice and chicken indian style HSN",
+    "kcal": 131,
+    "protein": 7,
+    "carbs": 18.4,
+    "fat": 3.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Rice Cream 2.0 HSN",
+    "kcal": 356,
+    "protein": 7.2,
+    "carbs": 80,
+    "fat": 0.8,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Rice Cream HSN",
+    "kcal": 366,
+    "protein": 46,
+    "carbs": 42,
+    "fat": 1.6,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Rice flour HSN",
+    "kcal": 365,
+    "protein": 8,
+    "carbs": 81,
+    "fat": 1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Rice protein HSN",
+    "kcal": 431,
+    "protein": 88,
+    "carbs": 1.9,
+    "fat": 7.9,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Roasted Sesame Seeds HSN",
+    "kcal": 81,
+    "protein": 2.6,
+    "carbs": 1.4,
+    "fat": 7.2,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Rucula",
+    "kcal": 25,
+    "protein": 2.6,
+    "carbs": 2,
+    "fat": 0.7,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Sabroz arroz integral Sabroz",
+    "kcal": 159,
+    "protein": 3.8,
+    "carbs": 31,
+    "fat": 2.2,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Salchichas estilo frankfurt Hacendado",
+    "kcal": 201,
+    "protein": 11.5,
+    "carbs": 5.2,
+    "fat": 14.9,
+    "category": "CARNES"
+  },
+  {
+    "name": "Salmón",
+    "kcal": 208,
+    "protein": 20.4,
+    "carbs": 0,
+    "fat": 13.4,
+    "category": "Otros"
+  },
+  {
+    "name": "Salmon ahumado",
+    "kcal": 180,
+    "protein": 22,
+    "carbs": 0.5,
+    "fat": 10,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Salmón ahumado Carrefour Discount",
+    "kcal": 196,
+    "protein": 22,
+    "carbs": 0.1,
+    "fat": 12,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Salmon ahumado en lonchas Lighthouse Bay",
+    "kcal": 163,
+    "protein": 20.4,
+    "carbs": 0,
+    "fat": 9,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Salmon ahumado Nautica (versión 1)",
+    "kcal": 145,
+    "protein": 18.9,
+    "carbs": 0,
+    "fat": 7.7,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Salmón ahumado nautica (versión 2)",
+    "kcal": 157,
+    "protein": 21,
+    "carbs": 0,
+    "fat": 8.1,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Salmón al natural Hacendado",
+    "kcal": 143,
+    "protein": 17,
+    "carbs": 1.8,
+    "fat": 7.5,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Salmon filete congelado",
+    "kcal": 140,
+    "protein": 21.6,
+    "carbs": 0,
+    "fat": 6,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Salmon lomos congelado",
+    "kcal": 224,
+    "protein": 20,
+    "carbs": 0,
+    "fat": 16,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Salsa 0% barbacoa",
+    "kcal": 55,
+    "protein": 1,
+    "carbs": 12,
+    "fat": 0.3,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Salsa Curry HSN",
+    "kcal": 12,
+    "protein": 0.5,
+    "carbs": 1.8,
+    "fat": 0.3,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Salsa de soja",
+    "kcal": 52,
+    "protein": 8,
+    "carbs": 5,
+    "fat": 0,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Salsa de soja Kikkoman",
+    "kcal": 53,
+    "protein": 10,
+    "carbs": 3.2,
+    "fat": 0,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Salsa Kebab HSN",
+    "kcal": 30,
+    "protein": 0.4,
+    "carbs": 4.7,
+    "fat": 1.1,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Salteadeo de verduras asadas hacendado",
+    "kcal": 40,
+    "protein": 1.8,
+    "carbs": 7.9,
+    "fat": 0.1,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Salteado verduras congeladas",
+    "kcal": 21,
+    "protein": 1.8,
+    "carbs": 3.4,
+    "fat": 0,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Salted Caramel Pea Protein Isolate HSN",
+    "kcal": 405,
+    "protein": 80,
+    "carbs": 4.4,
+    "fat": 7.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Salty Almond Bar HSN",
+    "kcal": 532,
+    "protein": 14.2,
+    "carbs": 31.9,
+    "fat": 38.6,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Sandia",
+    "kcal": 34,
+    "protein": 0.6,
+    "carbs": 7.5,
+    "fat": 0.2,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Sandwich Zero Sin Azúcares Gullón",
+    "kcal": 458,
+    "protein": 7,
+    "carbs": 67,
+    "fat": 18,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Sardinas en aceite escurridas",
+    "kcal": 195,
+    "protein": 24,
+    "carbs": 0,
+    "fat": 11,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Sardinas frescas",
+    "kcal": 161,
+    "protein": 20,
+    "carbs": 0,
+    "fat": 9,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Sardines in sunflower oil NIXE",
+    "kcal": 294,
+    "protein": 22.2,
+    "carbs": 0,
+    "fat": 22.8,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Sardinillas en aceite de oliva MERCADO",
+    "kcal": 367,
+    "protein": 16.7,
+    "carbs": 0,
+    "fat": 33.3,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Sardinillas en tomate Hacendado",
+    "kcal": 154,
+    "protein": 20,
+    "carbs": 1.1,
+    "fat": 7.7,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Saumon Fumé Petit Navire",
+    "kcal": 207,
+    "protein": 22,
+    "carbs": 0.5,
+    "fat": 13,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Semillas de calabaza",
+    "kcal": 605,
+    "protein": 30,
+    "carbs": 11,
+    "fat": 49,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Semillas de chia",
+    "kcal": 379,
+    "protein": 17,
+    "carbs": 8,
+    "fat": 31,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Semillas de lino",
+    "kcal": 456,
+    "protein": 18,
+    "carbs": 1.6,
+    "fat": 42,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Skyr Danone",
+    "kcal": 57,
+    "protein": 10,
+    "carbs": 3.9,
+    "fat": 0.2,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Skyr natural",
+    "kcal": 62,
+    "protein": 11,
+    "carbs": 4,
+    "fat": 0.2,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Smooth PEANUT BUTTER Sante",
+    "kcal": 602,
+    "protein": 24,
+    "carbs": 14,
+    "fat": 50,
+    "category": "GRASAS Y FRUTOS SECOS"
+  },
+  {
+    "name": "Snickerdoodle HSN",
+    "kcal": 365,
+    "protein": 77,
+    "carbs": 6.8,
+    "fat": 3.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "SOJA Sin azúcares añadidos** Carrefour BIO",
+    "kcal": 40,
+    "protein": 3.8,
+    "carbs": 1.4,
+    "fat": 2.1,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Soja texturizada",
+    "kcal": 334,
+    "protein": 50,
+    "carbs": 30,
+    "fat": 1.5,
+    "category": "LEGUMBRES"
+  },
+  {
+    "name": "Solomillo de cerdo",
+    "kcal": 103,
+    "protein": 19,
+    "carbs": 0,
+    "fat": 3,
+    "category": "CARNES"
+  },
+  {
+    "name": "Solomillo de pavo",
+    "kcal": 78,
+    "protein": 19.5,
+    "carbs": 0,
+    "fat": 0,
+    "category": "CARNES"
+  },
+  {
+    "name": "Solomillo de pollo",
+    "kcal": 104,
+    "protein": 22,
+    "carbs": 0,
+    "fat": 1.8,
+    "category": "CARNES"
+  },
+  {
+    "name": "Solomillo ternera",
+    "kcal": 160,
+    "protein": 22,
+    "carbs": 0,
+    "fat": 8,
+    "category": "CARNES"
+  },
+  {
+    "name": "Soy protein Isolate 2.0 HSN",
+    "kcal": 390,
+    "protein": 92,
+    "carbs": 1.4,
+    "fat": 1.8,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Soy protein isolate 2.p HSN",
+    "kcal": 360,
+    "protein": 78,
+    "carbs": 4,
+    "fat": 3.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Soy Protein Isolate Salted Caramel HSN",
+    "kcal": 376,
+    "protein": 86,
+    "carbs": 4,
+    "fat": 1.8,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Spaghetti integral Barilla",
+    "kcal": 331,
+    "protein": 13,
+    "carbs": 64,
+    "fat": 2.5,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Spàguettis",
+    "kcal": 354,
+    "protein": 13,
+    "carbs": 72,
+    "fat": 1.5,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "SPICY CHICKEN & 'NDUJA PIZZA Deluxe",
+    "kcal": 642,
+    "protein": 28.4,
+    "carbs": 19,
+    "fat": 50.3,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Sun-Dried Tomatoes with sea salt Baresa",
+    "kcal": 114,
+    "protein": 7,
+    "carbs": 20,
+    "fat": 0.7,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Te matcha HSN",
+    "kcal": 376,
+    "protein": 30,
+    "carbs": 55,
+    "fat": 4,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Tempeh",
+    "kcal": 211,
+    "protein": 19,
+    "carbs": 9,
+    "fat": 11,
+    "category": "LEGUMBRES"
+  },
+  {
+    "name": "Textured Pea Protein HSN",
+    "kcal": 409,
+    "protein": 82,
+    "carbs": 5.7,
+    "fat": 6.5,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Tilapia congelada",
+    "kcal": 95,
+    "protein": 20,
+    "carbs": 0,
+    "fat": 1.7,
+    "category": "PESCADOS Y MARISCOS"
+  },
+  {
+    "name": "Tiras de pechuga de pollo al horno Hacendado",
+    "kcal": 107,
+    "protein": 23.4,
+    "carbs": 0.6,
+    "fat": 1.2,
+    "category": "CARNES"
+  },
+  {
+    "name": "tiras pollo Hacendado",
+    "kcal": 107,
+    "protein": 23.4,
+    "carbs": 0.6,
+    "fat": 1.2,
+    "category": "CARNES"
+  },
+  {
+    "name": "Tofu firme",
+    "kcal": 119,
+    "protein": 12,
+    "carbs": 1.9,
+    "fat": 7,
+    "category": "LEGUMBRES"
+  },
+  {
+    "name": "Tofu firme Hacendado",
+    "kcal": 110,
+    "protein": 11.1,
+    "carbs": 0.9,
+    "fat": 6.9,
+    "category": "LEGUMBRES"
+  },
+  {
+    "name": "Tomate",
+    "kcal": 21,
+    "protein": 0.8,
+    "carbs": 3.9,
+    "fat": 0.2,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Tomate frito hacendado (versión 1)",
+    "kcal": 76,
+    "protein": 1.5,
+    "carbs": 9.5,
+    "fat": 3.5,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Tomate frito Hacendado (versión 2)",
+    "kcal": 79,
+    "protein": 1.4,
+    "carbs": 11.6,
+    "fat": 3,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Tomate Frito HSN",
+    "kcal": 57,
+    "protein": 2.1,
+    "carbs": 8.2,
+    "fat": 1.8,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Tomate Pelado Troceado Hacendado",
+    "kcal": 29,
+    "protein": 1.1,
+    "carbs": 6,
+    "fat": 0.1,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Tomate tamizado sin piel Hacendado",
+    "kcal": 34,
+    "protein": 1.4,
+    "carbs": 6.6,
+    "fat": 0.2,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Tomate triturado Hacendado",
+    "kcal": 25,
+    "protein": 0.8,
+    "carbs": 5.5,
+    "fat": 0,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Tomaten geschält Baresa",
+    "kcal": 25,
+    "protein": 1.3,
+    "carbs": 4.1,
+    "fat": 0.4,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Tomato Ketchup Heinz",
+    "kcal": 99,
+    "protein": 1.2,
+    "carbs": 23.2,
+    "fat": 0.1,
+    "category": "SALSAS Y OTROS"
+  },
+  {
+    "name": "Tortelloni Pesto Basilico Chef Select",
+    "kcal": 295,
+    "protein": 11.1,
+    "carbs": 33,
+    "fat": 13.2,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Tortelloni Ricotta et épinards Baresa",
+    "kcal": 271,
+    "protein": 9.2,
+    "carbs": 34.2,
+    "fat": 10.8,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Tortillas de avena 51% Hacendado",
+    "kcal": 274,
+    "protein": 15,
+    "carbs": 40,
+    "fat": 6,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Tortillas de trigo integrales Hacendado",
+    "kcal": 253,
+    "protein": 9.3,
+    "carbs": 41,
+    "fat": 5.8,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Tortitas arroz hacendado",
+    "kcal": 356,
+    "protein": 8.4,
+    "carbs": 74,
+    "fat": 2.9,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Tortitas de arroz (Hacendado)",
+    "kcal": 363,
+    "protein": 8.5,
+    "carbs": 75,
+    "fat": 2.8,
+    "category": "Otros"
+  },
+  {
+    "name": "Tortitas de arroz ecocesta",
+    "kcal": 385,
+    "protein": 7.8,
+    "carbs": 82.8,
+    "fat": 2.5,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Tortitas de arroz sondey",
+    "kcal": 377,
+    "protein": 7.6,
+    "carbs": 78.8,
+    "fat": 3.5,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Tortitas de maiz",
+    "kcal": 354,
+    "protein": 6,
+    "carbs": 78,
+    "fat": 2,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Tostadas crujientes de fibra wasa",
+    "kcal": 281,
+    "protein": 12,
+    "carbs": 47,
+    "fat": 5,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Tostas integral Centeno Tastino",
+    "kcal": 287,
+    "protein": 8.3,
+    "carbs": 60,
+    "fat": 1.5,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Trigo Espelta Crackers Bachman",
+    "kcal": 410,
+    "protein": 15,
+    "carbs": 56,
+    "fat": 14,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Ultra Omega 3 HSN",
+    "kcal": 585,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 65,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Uva",
+    "kcal": 68,
+    "protein": 0.6,
+    "carbs": 16,
+    "fat": 0.2,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Whey protein chocolate HSN",
+    "kcal": 383,
+    "protein": 84,
+    "carbs": 4.2,
+    "fat": 3.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Whey Protein Concentrate 100 % RAW HSN",
+    "kcal": 409,
+    "protein": 82,
+    "carbs": 5.8,
+    "fat": 6.4,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Whey protein concentrate HSN",
+    "kcal": 366,
+    "protein": 76,
+    "carbs": 7.8,
+    "fat": 3.4,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Whey Protein Isolate 100 % RAW HSN",
+    "kcal": 386,
+    "protein": 93,
+    "carbs": 1.2,
+    "fat": 1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Whey protein isolate HSN",
+    "kcal": 378,
+    "protein": 90,
+    "carbs": 2.2,
+    "fat": 1,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Whey Proteína Chocolate HSN",
+    "kcal": 356,
+    "protein": 74,
+    "carbs": 6.5,
+    "fat": 3.8,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Whey White Chocolate & Mango HSN",
+    "kcal": 400,
+    "protein": 80,
+    "carbs": 5.7,
+    "fat": 6.3,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "White Asparagus Freshona",
+    "kcal": 15,
+    "protein": 1.7,
+    "carbs": 1.6,
+    "fat": 0.2,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Wrap integral",
+    "kcal": 287,
+    "protein": 9,
+    "carbs": 47,
+    "fat": 7,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Wraps au blé nature Mission",
+    "kcal": 311,
+    "protein": 8,
+    "carbs": 54,
+    "fat": 7,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Wraps integrales de trigo Old El Paso",
+    "kcal": 283,
+    "protein": 9.1,
+    "carbs": 48.1,
+    "fat": 6,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Wraps Old El Paso",
+    "kcal": 296,
+    "protein": 9.1,
+    "carbs": 53.2,
+    "fat": 5.2,
+    "category": "CEREALES Y TUBERCULOS"
+  },
+  {
+    "name": "Yaos Nestlé",
+    "kcal": 98,
+    "protein": 3.1,
+    "carbs": 3.5,
+    "fat": 7.9,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Yogur + proteinas hacendado caramelo",
+    "kcal": 78,
+    "protein": 10,
+    "carbs": 6,
+    "fat": 1.5,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Yogur + proteinas hacendado chocolate",
+    "kcal": 76,
+    "protein": 8.3,
+    "carbs": 8.3,
+    "fat": 1.1,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Yogur + proteinas hacendado frutas",
+    "kcal": 57,
+    "protein": 8.3,
+    "carbs": 5,
+    "fat": 0.4,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Yogur + proteinas hacendado natillas",
+    "kcal": 77,
+    "protein": 10,
+    "carbs": 5.8,
+    "fat": 1.5,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Yogur +proteinas natural 0% Hacendado",
+    "kcal": 57,
+    "protein": 10,
+    "carbs": 3.1,
+    "fat": 0.5,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Yogur 0% desn. sabores",
+    "kcal": 36,
+    "protein": 4.3,
+    "carbs": 4.5,
+    "fat": 0.1,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Yogur bebible fresa 0% Hacendado",
+    "kcal": 33,
+    "protein": 3.3,
+    "carbs": 4.3,
+    "fat": 0.3,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Yogur griego 0%",
+    "kcal": 54,
+    "protein": 9,
+    "carbs": 4,
+    "fat": 0.2,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Yogur griego ligero Hacendado",
+    "kcal": 60,
+    "protein": 5.8,
+    "carbs": 4.7,
+    "fat": 2,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Yogur griego natural",
+    "kcal": 120,
+    "protein": 3.8,
+    "carbs": 3.6,
+    "fat": 10,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Yogur Griego Natural Light Milbona",
+    "kcal": 58,
+    "protein": 6,
+    "carbs": 4,
+    "fat": 2,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Yogur natural al estilo griego Hacendado",
+    "kcal": 128,
+    "protein": 3.9,
+    "carbs": 3.9,
+    "fat": 10.8,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Yogur natural Carrefour",
+    "kcal": 43,
+    "protein": 4,
+    "carbs": 4.2,
+    "fat": 1.1,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Yogur natural con azucar de caña Hacendado",
+    "kcal": 91,
+    "protein": 2.7,
+    "carbs": 11.6,
+    "fat": 3.8,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Yogur natural Danone",
+    "kcal": 46,
+    "protein": 4,
+    "carbs": 5.3,
+    "fat": 1,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Yogur natural Hacendado",
+    "kcal": 62,
+    "protein": 3.7,
+    "carbs": 4.1,
+    "fat": 3.4,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Yogur natural proteínas 0% MERCADONA",
+    "kcal": 57,
+    "protein": 10,
+    "carbs": 3.1,
+    "fat": 0.5,
+    "category": "LACTEOS"
+  },
+  {
+    "name": "Zanahoria (versión 1)",
+    "kcal": 34,
+    "protein": 0.8,
+    "carbs": 7,
+    "fat": 0.3,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "Zanahoria (versión 2)",
+    "kcal": 43,
+    "protein": 0.9,
+    "carbs": 9.5,
+    "fat": 0.2,
+    "category": "VERDURAS"
+  },
+  {
+    "name": "zobene white limun HSN",
+    "kcal": 386,
+    "protein": 13,
+    "carbs": 68,
+    "fat": 6.9,
+    "category": "SUPLEMENTOS"
+  },
+  {
+    "name": "Zumo naranja con pulpa",
+    "kcal": 42,
+    "protein": 0.6,
+    "carbs": 10,
+    "fat": 0,
+    "category": "FRUTAS"
+  },
+  {
+    "name": "Zymil",
+    "kcal": 41,
+    "protein": 3.2,
+    "carbs": 4.9,
+    "fat": 1,
+    "category": "LACTEOS"
+  }
+]

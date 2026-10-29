@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Calculadora de equivalencias · Héctor Dámaso</title>
+  <meta name="description" content="Cambia un alimento por otro sin descuadrar tu dieta. Calculadora de equivalencias de Héctor Dámaso.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0a0a0b">
+  <link rel="icon" href="marca/hd-monograma.webp">
+  <link rel="preload" href="fuentes/anton-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fuentes/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="cabecera">
+    <div class="contenedor cabecera-fila">
+      <span class="marca"><img src="marca/hd-monograma.webp" alt="" width="48" height="32"><span class="display">Héctor <span class="rojo">Dámaso</span></span></span>
+      <span class="eyebrow claro">Coaching 1 a 1</span>
+    </div>
+    <div class="contenedor portada">
+      <p class="eyebrow claro">Herramienta para clientes</p>
+      <h1 class="display">Calculadora de <span class="rojo">equivalencias</span></h1>
+      <p class="entradilla">Cambia un alimento de tu dieta por otro sin descuadrar tus números. Elige el alimento, la cantidad y te digo cuánto poner del otro.</p>
+    </div>
+  </header>
+
+  <main class="contenedor rejilla">
+    <section class="panel-oscuro" aria-label="Tu alimento">
+      <div class="campo combobox">
+        <label for="buscar-alimento">Alimento de tu dieta</label>
+        <input id="buscar-alimento" class="field field-dark" type="text" autocomplete="off" spellcheck="false"
+          role="combobox" aria-expanded="false" aria-controls="lista-alimentos" aria-autocomplete="list"
+          placeholder="Busca: arroz, pollo, avena…">
+        <ul id="lista-alimentos" class="desplegable" role="listbox" hidden></ul>
+        <p id="elegido" class="elegido" aria-live="polite"></p>
+      </div>
+
+      <div class="campo">
+        <label for="cantidad">Cantidad (g)</label>
+        <input id="cantidad" class="field field-dark" type="number" inputmode="decimal" min="1" max="2000" step="1" value="100">
+      </div>
+
+      <fieldset class="campo">
+        <legend>Igualar por</legend>
+        <div id="metricas" class="chips">
+          <button type="button" data-metrica="auto" aria-pressed="true">Automático</button>
+          <button type="button" data-metrica="proteina" aria-pressed="false">Proteína</button>
+          <button type="button" data-metrica="hidratos" aria-pressed="false">Hidratos</button>
+          <button type="button" data-metrica="grasa" aria-pressed="false">Grasas</button>
+          <button type="button" data-metrica="kcal" aria-pressed="false">Calorías</button>
+        </div>
+      </fieldset>
+
+      <dl id="resumen" class="resumen"></dl>
+      <p id="error" class="aviso" role="status"></p>
+    </section>
+
+    <section class="alternativas" aria-label="Alternativas">
+      <div class="alternativas-cabecera">
+        <h2 id="titulo-alternativas">Tus alternativas</h2>
+        <label class="casilla"><input id="todos" type="checkbox"> Ver todos los alimentos</label>
+      </div>
+      <div class="filtros">
+        <label class="sr-only" for="filtro-texto">Buscar alternativa</label>
+        <input id="filtro-texto" class="field" type="search" placeholder="Buscar una alternativa…">
+        <label class="sr-only" for="filtro-categoria">Categoría</label>
+        <select id="filtro-categoria" class="field"></select>
+      </div>
+      <p id="contador" class="contador"></p>
+      <ol id="lista" class="lista"></ol>
+      <button id="mas" type="button" class="button button-secondary" hidden>Ver más alternativas</button>
+    </section>
+  </main>
+
+  <footer class="contenedor pie">
+    <p><strong>Cómo leerlo.</strong> Pesa los alimentos como dice su nombre: en crudo o en seco si no pone «cocido». Las cantidades son aproximadas y redondeadas para que se puedan pesar. La calculadora iguala un nutriente: el resto puede cambiar un poco, y debajo de cada opción ves cuánto.</p>
+    <p><strong>Equivalencia fija del programa:</strong> 100 g de arroz en seco = 400 g de papas en crudo.</p>
+    <p>Si tienes dudas con un cambio, pregúntame antes de hacerlo. Valores por 100 g del catálogo de alimentos de Héctor Dámaso.</p>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
