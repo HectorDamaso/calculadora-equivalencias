@@ -60,7 +60,8 @@ export function evaluar(d) {
   // 4. Apto.
   if (d.vieneDe === 'mantenimiento') motivos.push('Partes de mantenimiento con calorías altas: puedes hacerlo, pero que sea corto y con el entreno a tope.');
   if (d.estresSueno === 'regular') motivos.push('Vigila el sueño y el estrés: son lo primero que se resiente en un recorte así.');
-  if (!d.pasos) motivos.push('Si no puedes llegar a 12.000 pasos, tendrás que meter algo de cardio después del entreno.');
+  if (d.pasos === false && d.cardio === false) motivos.push('Sin subir pasos ni hacer cardio, todo el déficit sale de la comida y vas a pasar más hambre. Aunque sean 20 minutos de cardio después de entrenar, ayudan.');
+  else if (d.pasos === false) motivos.push('Como te cuesta subir pasos, el cardio tendrá más peso: unas 5 sesiones cortas a la semana.');
   return sale('minicut', 'Puedes hacer el minicut');
 }
 
@@ -81,7 +82,6 @@ export function minicutForzado(d) {
     return { permitido: false, motivo: `Con ${entero(d.kcal)} kcal no hay de dónde recortar sin bajar de ${entero(MINIMO_KCAL[sexo])}. Un minicut con tan poco margen no es un minicut: es pasar hambre.` };
   }
   const base = plan(d, sexo);
-  const kcalMax = Math.max(MINIMO_KCAL[sexo], r10(d.kcal - DEFICIT.min));
   const avisos = ['Lo haces bajo tu responsabilidad: el test te recomienda otra cosa por los motivos de arriba.'];
   avisos.push(`Como no es tu momento ideal, que sea más corto: ${SEMANAS_FORZADO.min}–${SEMANAS_FORZADO.max} semanas como mucho, y después vuelve a mantenimiento.`);
   if (d.vieneDe === 'deficit') avisos.push('Vienes de estar en déficit: si el rendimiento cae o el hambre se dispara en las primeras dos semanas, para y pasa a mantenimiento.');
@@ -92,19 +92,54 @@ export function minicutForzado(d) {
   if (d.estresSueno === 'mal') avisos.push('Con estrés alto o mal descanso, el hambre y el cansancio van a ser mayores. Prioriza dormir.');
   if (d.eventos) avisos.push('Si en mitad del minicut tienes vacaciones o un evento, termínalo antes o empiézalo después: cortarlo a la mitad lo alarga.');
   if (d.vieneDe === 'volumen' && d.grasaDeMas === 'no') avisos.push('Sigues ganando más músculo que grasa: estás cortando un volumen que aún funcionaba.');
-  return { permitido: true, plan: { ...base, kcal: [base.kcal[0], kcalMax], semanas: [SEMANAS_FORZADO.min, SEMANAS_FORZADO.max] }, avisos };
+  return { permitido: true, plan: { ...base, semanas: [SEMANAS_FORZADO.min, SEMANAS_FORZADO.max] }, avisos };
 }
 
 const entero = (n) => Math.round(n).toLocaleString('es-ES');
 const fmt = (n) => n.toLocaleString('es-ES', { maximumFractionDigits: 1 });
 const r10 = (n) => Math.round(n / 10) * 10;
 
-function plan(d, sexo) {
-  const kcalMin = Math.max(MINIMO_KCAL[sexo], r10(d.kcal - DEFICIT.max));
-  const kcalMax = r10(d.kcal - DEFICIT.min);
-  const proteina = Math.round(d.peso * 2 / 5) * 5; // ~2 g por kg
+// El déficit no sale solo de la comida: antes de quitar comida, moverse más.
+export const DEFICIT_OBJETIVO = 900; // kcal al día, en medio de 800–1.000
+export const RECORTE_COMIDA = { min: 300, max: 1000 }; // la comida siempre baja algo, nunca más de 1.000
+export const PASOS = { meta: 12000, tope: 15000, sumaSiYaLlega: 2000, porDefecto: 8000 };
+export const CARDIO = { minutos: 30, sesiones: 3, sesionesSinPasos: 5 };
+// Gasto aproximado: andar ≈ 0,55 kcal por kg cada 1.000 pasos; cardio moderado
+// (bici, elíptica, cinta inclinada) ≈ 5 kcal por kg cada hora, por encima del reposo.
+const KCAL_1000_PASOS_KG = 0.55;
+const KCAL_HORA_CARDIO_KG = 5;
+
+/** Reparte el déficit del día entre pasos, cardio y comida. */
+export function repartoDeficit({ peso, kcal, pasosActuales, masPasos = true, cardio = true }, sexo = 'hombre') {
+  const actuales = pasosActuales > 0 ? Math.round(pasosActuales / 500) * 500 : PASOS.porDefecto;
+  let meta = actuales;
+  if (masPasos) meta = actuales < PASOS.meta ? PASOS.meta : Math.min(PASOS.tope, actuales + PASOS.sumaSiYaLlega);
+  meta = Math.max(meta, actuales);
+  const kcalPasos = ((meta - actuales) / 1000) * KCAL_1000_PASOS_KG * peso;
+
+  const sesiones = cardio ? (masPasos ? CARDIO.sesiones : CARDIO.sesionesSinPasos) : 0;
+  const kcalSesion = (CARDIO.minutos / 60) * KCAL_HORA_CARDIO_KG * peso;
+  const kcalCardioDia = (sesiones * kcalSesion) / 7;
+
+  const actividad = kcalPasos + kcalCardioDia;
+  let recorte = Math.min(RECORTE_COMIDA.max, Math.max(RECORTE_COMIDA.min, r10(DEFICIT_OBJETIVO - actividad)));
+  let comer = r10(kcal - recorte);
+  if (comer < MINIMO_KCAL[sexo]) { comer = MINIMO_KCAL[sexo]; recorte = Math.max(0, kcal - comer); }
+  const total = recorte + actividad;
   return {
-    kcal: [kcalMin, kcalMax],
+    comer, recorte,
+    pasos: { actuales, meta, kcal: kcalPasos },
+    cardio: { sesiones, minutos: CARDIO.minutos, kcalSesion, kcalDia: kcalCardioDia },
+    total,
+    kgSemana: (total * 7) / 7700, // 1 kg de grasa ≈ 7.700 kcal
+  };
+}
+
+function plan(d, sexo) {
+  const proteina = Math.round(d.peso * 2 / 5) * 5; // ~2 g por kg
+  const reparto = repartoDeficit({ peso: d.peso, kcal: d.kcal, pasosActuales: d.pasosActuales, masPasos: d.pasos !== false, cardio: d.cardio !== false }, sexo);
+  return {
+    ...reparto,
     perder: [d.peso * PERDIDA.min / 100, d.peso * PERDIDA.max / 100],
     pesoFinal: [d.peso * (1 - PERDIDA.max / 100), d.peso * (1 - PERDIDA.min / 100)],
     semanas: [SEMANAS.min, SEMANAS.max],
