@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Modo fin de semana · Héctor Dámaso</title>
+  <meta name="description" content="¿Cena con amigos el sábado? Mira cuánto supone de verdad y cómo encajarla sin culpa y sin compensar. Herramienta de Héctor Dámaso.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0a0a0b">
+  <link rel="icon" href="../marca/hd-monograma.webp">
+  <link rel="preload" href="../fuentes/anton-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../fuentes/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../estilos.css">
+</head>
+<body>
+  <header class="cabecera">
+    <div class="contenedor cabecera-fila">
+      <span class="marca"><img src="../marca/hd-monograma.webp" alt="" width="48" height="32"><span class="display">Héctor <span class="rojo">Dámaso</span></span></span>
+      <a class="enlace-cabecera" href="../">Calculadora de equivalencias</a>
+    </div>
+    <div class="contenedor portada">
+      <p class="eyebrow claro">Herramienta gratuita</p>
+      <h1 class="display">Modo <span class="rojo">fin de semana</span></h1>
+      <p class="entradilla">¿Cena con amigos, cumpleaños o unas cervezas? Apunta lo que vas a tomar y te digo cuánto supone de verdad y cómo encajarlo sin culpa y sin compensar.</p>
+    </div>
+  </header>
+
+  <main class="contenedor rejilla">
+    <form id="datos" class="panel-oscuro" aria-label="Tu plan" novalidate>
+      <fieldset class="campo">
+        <legend>Tu objetivo ahora</legend>
+        <div class="chips" data-grupo="objetivo">
+          <button type="button" data-valor="definicion" aria-pressed="true">Perder grasa</button>
+          <button type="button" data-valor="volumen" aria-pressed="false">Ganar músculo</button>
+          <button type="button" data-valor="mantener" aria-pressed="false">Mantenerme</button>
+        </div>
+      </fieldset>
+
+      <fieldset class="campo">
+        <legend>¿Qué vas a tomar?</legend>
+        <p class="ayuda">Calorías aproximadas de una ración típica de restaurante.</p>
+        <ul id="platos" class="platos"></ul>
+      </fieldset>
+
+      <div class="duo campo">
+        <label><span>Lo que comerías en casa (kcal)</span><input id="normal" class="field field-dark" type="number" inputmode="numeric" step="50" min="0" max="3000" value="700"></label>
+        <label><span>Calorías al día</span><input id="kcal" class="field field-dark" type="number" inputmode="numeric" step="10" min="800" max="6000" placeholder="Opcional"></label>
+      </div>
+
+      <div class="campo">
+        <label class="etiqueta" for="fuera">Comidas fuera esta semana, contando esta</label>
+        <div class="contador-fila">
+          <button type="button" class="paso" data-objetivo="fuera" data-delta="-1" aria-label="Una comida menos">−</button>
+          <input id="fuera" class="field field-dark contador-num" type="number" inputmode="numeric" min="1" max="21" value="1">
+          <button type="button" class="paso" data-objetivo="fuera" data-delta="1" aria-label="Una comida más">+</button>
+        </div>
+      </div>
+    </form>
+
+    <section class="alternativas resultado" aria-live="polite" aria-label="Cómo encajarlo">
+      <p class="eyebrow">Cómo encajarlo</p>
+      <div id="resultado"></div>
+    </section>
+  </main>
+
+  <div class="contenedor">
+    <a class="otra-herramienta" href="../subo-o-bajo/">
+      <strong>¿Subo o bajo <span class="rojo">calorías</span>?</strong>
+      <span>Mete tus pesos y tu cintura y te digo qué haría yo esta semana →</span>
+    </a>
+  </div>
+
+  <section class="contenedor" aria-labelledby="titulo-contacto">
+    <div class="contacto">
+      <div>
+        <p class="eyebrow claro">Coaching 1 a 1</p>
+        <h2 id="titulo-contacto" class="display">Un plan que <span class="rojo">cabe en tu vida</span></h2>
+        <p class="contacto-texto">Con mis clientes no hay alimentos prohibidos ni lunes de culpa: el plan se adapta a tu trabajo, tus horarios y tus planes. Escríbeme y te cuento cómo funciona.</p>
+      </div>
+      <div class="contacto-botones">
+        <a class="button button-primario" href="https://wa.link/1zr5s0" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.4.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg>
+          Escríbeme por WhatsApp
+        </a>
+        <a class="button button-contorno" href="https://www.instagram.com/hector.damaso.pt/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 7.3a4.7 4.7 0 1 0 0 9.4 4.7 4.7 0 0 0 0-9.4Zm0 7.7a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm4.9-8.9a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2ZM12 2c-2.7 0-3 0-4.1.1-3.6.2-5.6 2.2-5.8 5.8C2 9 2 9.3 2 12s0 3 .1 4.1c.2 3.6 2.2 5.6 5.8 5.8 1.1.1 1.4.1 4.1.1s3 0 4.1-.1c3.6-.2 5.6-2.2 5.8-5.8.1-1.1.1-1.4.1-4.1s0-3-.1-4.1c-.2-3.6-2.2-5.6-5.8-5.8C15 2 14.7 2 12 2Zm0 1.8c2.7 0 3 0 4 .1 2.7.1 4 1.4 4.1 4.1.1 1 .1 1.3.1 4s0 3-.1 4c-.1 2.7-1.4 4-4.1 4.1-1 .1-1.3.1-4 .1s-3 0-4-.1c-2.7-.1-4-1.4-4.1-4.1-.1-1-.1-1.3-.1-4s0-3 .1-4C4 5.3 5.3 4 8 3.9c1-.1 1.3-.1 4-.1Z"/></svg>
+          Sígueme en Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="contenedor pie">
+    <p><strong>Cómo lo calcula.</strong> Suma las calorías aproximadas de lo que vas a tomar y les resta lo que habrías comido en casa en esa comida. Si estás perdiendo grasa, el retraso en días es ese exceso entre tu déficit diario (unas 400 kcal si no lo sabes). Las cifras de cada plato son estimaciones: cada restaurante es un mundo.</p>
+    <p>No se guarda ni se envía ningún dato: todo se calcula en tu móvil.</p>
+  </footer>
+
+  <a id="barra" class="barra-total" href="#resultado" hidden><span id="barra-texto"></span><strong>Ver cómo encajarlo ↓</strong></a>
+
+  <script type="module" src="../js/fin-de-semana.js"></script>
+</body>
+</html>
