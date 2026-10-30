@@ -103,11 +103,30 @@ export function mezclar({ peso, sexo, mantenimiento, pasosActuales = 0, cardioAc
   };
 }
 
-/** Punto de partida del mezclador según el método: primero moverse, luego quitar comida. */
-export function propuesta({ peso, pasosActuales = 0, cardioActual = 0, objetivoKcal = 500 }) {
+/**
+ * Punto de partida del plan según el método: primero moverse, luego quitar comida.
+ * Pasos: +2.000 hasta 10.000 como mucho. Cardio que se añade: 2 sesiones de 30 minutos.
+ */
+export function propuesta({ peso, pasosActuales = 0, objetivoKcal = 500 }) {
   const pasos = pasosActuales < 10000 ? Math.min(10000, Math.ceil((pasosActuales + 2000) / 500) * 500) : pasosActuales;
-  const cardio = cardioActual < 60 ? 60 : cardioActual;
-  const movimiento = kcalPasos(peso, pasos - pasosActuales) + kcalCardioDia(peso, cardio - cardioActual);
+  const sesiones = 2, minutos = 30;
+  const movimiento = kcalPasos(peso, pasos - pasosActuales) + kcalCardioDia(peso, sesiones * minutos);
   const recorte = Math.max(150, Math.round((objetivoKcal - movimiento) / 50) * 50);
-  return { pasos, cardio, recorte };
+  return { pasos, sesiones, minutos, recorte };
+}
+
+/** Límites del medidor (kcal de déficit al día) según el peso y el método. */
+export function zonas(peso) {
+  const porPct = (pct) => ((pct / 100) * peso * KCAL_KG_GRASA) / 7;
+  const bueno = porPct(0.25), rapido = Math.min(porPct(0.8), 800);
+  return { suave: [0, bueno], bueno: [bueno, rapido], rapido: [rapido, 800], minicut: [800, 1050], demasiado: [1050, 1300] };
+}
+
+/** Comparación de lo que come ahora con su mantenimiento. */
+export function comparar(mantenimiento, ingesta, peso) {
+  if (!(ingesta > 0)) return null;
+  const diferencia = ingesta - mantenimiento; // negativo = déficit
+  const kgSemana = (diferencia * 7) / KCAL_KG_GRASA;
+  const estado = Math.abs(diferencia) < 150 ? 'mantenimiento' : diferencia < 0 ? 'deficit' : 'superavit';
+  return { diferencia, kgSemana, estado, pct: (kgSemana / peso) * 100 };
 }

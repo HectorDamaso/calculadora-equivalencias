@@ -55,6 +55,12 @@
         <label class="etiqueta" for="cardio">Cardio que ya haces (minutos a la semana)</label>
         <input id="cardio" class="field field-dark" type="number" inputmode="numeric" step="10" min="0" max="1500" value="0">
       </div>
+
+      <div class="campo">
+        <label class="etiqueta" for="ingesta">Calorías que comes ahora</label>
+        <p class="ayuda">Opcional. Si las sabes, te digo si ya estás en déficit, en mantenimiento o en superávit.</p>
+        <input id="ingesta" class="field field-dark" type="number" inputmode="numeric" step="10" min="800" max="7000" placeholder="2.600">
+      </div>
     </form>
 
     <section class="alternativas resultado" aria-live="polite" aria-label="Tus calorías">
@@ -72,19 +78,46 @@
         </fieldset>
 
         <div id="mezclador" class="mezclador">
-          <h3 class="subtitulo">Monta tu déficit</h3>
-          <p class="ayuda-clara">Mueve los tres controles. Lo que ya haces cuenta en tu gasto: aquí solo suma lo que añades.</p>
-          <div class="control">
-            <label for="recorte"><span>Quito de comida</span><output id="o-recorte"></output></label>
-            <input id="recorte" type="range" min="0" max="1000" step="50" value="300">
-          </div>
-          <div class="control">
-            <label for="masPasos"><span>Paso a andar</span><output id="o-pasos"></output></label>
-            <input id="masPasos" type="range" min="0" max="20000" step="500" value="10000">
-          </div>
-          <div class="control">
-            <label for="masCardio"><span>Cardio a la semana</span><output id="o-cardio"></output></label>
-            <input id="masCardio" type="range" min="0" max="300" step="10" value="60">
+          <h3 class="subtitulo">Tu plan para perder grasa</h3>
+          <p class="ayuda-clara">El déficit sale de tres sitios: comer algo menos, andar más y hacer cardio. Te propongo un reparto; toca <strong>−</strong> y <strong>+</strong> en cada fila hasta que la barra quede en la zona verde.</p>
+          <div id="medidor" class="medidor"></div>
+          <div class="mezcla">
+            <div class="fila-mezcla">
+              <div class="fila-texto"><strong>Comer al día</strong><span id="t-comer"></span></div>
+              <div class="contador-fila">
+                <button type="button" class="paso paso-claro" data-palanca="comer" data-delta="-50" aria-label="50 kcal menos">−</button>
+                <output id="v-comer" class="valor-mezcla"></output>
+                <button type="button" class="paso paso-claro" data-palanca="comer" data-delta="50" aria-label="50 kcal más">+</button>
+              </div>
+              <span id="k-comer" class="fila-kcal"></span>
+            </div>
+            <div class="fila-mezcla">
+              <div class="fila-texto"><strong>Pasos al día</strong><span id="t-pasos"></span></div>
+              <div class="contador-fila">
+                <button type="button" class="paso paso-claro" data-palanca="pasos" data-delta="-500" aria-label="500 pasos menos">−</button>
+                <output id="v-pasos" class="valor-mezcla"></output>
+                <button type="button" class="paso paso-claro" data-palanca="pasos" data-delta="500" aria-label="500 pasos más">+</button>
+              </div>
+              <span id="k-pasos" class="fila-kcal"></span>
+            </div>
+            <div class="fila-mezcla">
+              <div class="fila-texto"><strong>Cardio que añades</strong><span>Sesiones a la semana</span></div>
+              <div class="contador-fila">
+                <button type="button" class="paso paso-claro" data-palanca="sesiones" data-delta="-1" aria-label="Una sesión menos">−</button>
+                <output id="v-sesiones" class="valor-mezcla"></output>
+                <button type="button" class="paso paso-claro" data-palanca="sesiones" data-delta="1" aria-label="Una sesión más">+</button>
+              </div>
+              <span id="k-cardio" class="fila-kcal"></span>
+            </div>
+            <div class="fila-mezcla fila-sub">
+              <div class="fila-texto"><span>Minutos por sesión</span></div>
+              <div class="contador-fila">
+                <button type="button" class="paso paso-claro" data-palanca="minutos" data-delta="-5" aria-label="5 minutos menos">−</button>
+                <output id="v-minutos" class="valor-mezcla"></output>
+                <button type="button" class="paso paso-claro" data-palanca="minutos" data-delta="5" aria-label="5 minutos más">+</button>
+              </div>
+              <span class="fila-kcal"></span>
+            </div>
           </div>
           <button id="propuesta" type="button" class="enlace-boton">Volver a mi propuesta</button>
         </div>

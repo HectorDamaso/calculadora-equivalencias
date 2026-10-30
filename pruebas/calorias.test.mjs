@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { gasto, objetivo, mezclar, propuesta, macros, kcalPasos, kcalCardioDia } from '../js/calorias.js';
+import { gasto, objetivo, mezclar, propuesta, macros, kcalPasos, kcalCardioDia, zonas, comparar } from '../js/calorias.js';
 
 const hector = { sexo: 'hombre', edad: 32, peso: 85, altura: 178, pasos: 8000, fuerzaMin: 240, cardioMin: 0 };
 
@@ -44,7 +44,23 @@ test('mezclador: suma comida, pasos y cardio añadidos y juzga el ritmo', () => 
 });
 
 test('propuesta: primero moverse y luego quitar comida', () => {
-  const p = propuesta({ peso: 85, pasosActuales: 8000, cardioActual: 0 });
-  assert.deepEqual(p, { pasos: 10000, cardio: 60, recorte: 300 });
-  assert.equal(propuesta({ peso: 85, pasosActuales: 14000, cardioActual: 120 }).recorte, 500);
+  // +2.000 pasos (106 kcal) y 2 × 30 min de cardio (73 kcal): el resto, de comida.
+  assert.deepEqual(propuesta({ peso: 85, pasosActuales: 8000 }), { pasos: 10000, sesiones: 2, minutos: 30, recorte: 300 });
+  assert.equal(propuesta({ peso: 85, pasosActuales: 14000 }).pasos, 14000);
+});
+
+test('zonas del medidor según el peso', () => {
+  const z = zonas(85);
+  assert.ok(Math.abs(z.bueno[0] - 233.75) < 1e-9); // 0,25 % de 85 kg a la semana
+  assert.ok(Math.abs(z.bueno[1] - 748) < 1e-9); // 0,8 %
+  assert.deepEqual(z.minicut, [800, 1050]);
+  assert.equal(zonas(120).bueno[1], 800); // con mucho peso, el tope verde es 800
+});
+
+test('comparar lo que come con su mantenimiento', () => {
+  assert.equal(comparar(3000, 2500, 80).estado, 'deficit');
+  assert.equal(comparar(3000, 3400, 80).estado, 'superavit');
+  assert.equal(comparar(3000, 3100, 80).estado, 'mantenimiento');
+  assert.ok(Math.abs(comparar(3000, 2450, 80).kgSemana + 0.5) < 1e-9); // −550 × 7 ÷ 7.700
+  assert.equal(comparar(3000, NaN, 80), null);
 });
