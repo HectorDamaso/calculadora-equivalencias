@@ -118,5 +118,17 @@ button, input, select { font: inherit; -webkit-tap-highlight-color: transparent;
 .button-secondary { margin-top: 16px; width: 100%; background: #fff; color: var(--n900); border: 1px solid var(--n300); }
 .button-secondary:hover { border-color: var(--n900); }
 
+/* Contacto para el coaching 1 a 1 */
+.contacto { margin-top: 40px; display: grid; gap: 24px; align-items: center; background: var(--tinta); color: #fff; border-radius: 10px; padding: 32px 24px; }
+@media (min-width: 860px) { .contacto { grid-template-columns: minmax(0, 1fr) auto; padding: 40px; } }
+.contacto h2 { margin: 12px 0 0; font-size: clamp(32px, 6vw, 52px); max-width: 16ch; }
+.contacto-texto { margin: 14px 0 0; max-width: 480px; color: var(--n300); font-size: 15px; }
+.contacto-botones { display: grid; gap: 12px; }
+.contacto .button { gap: 10px; text-decoration: none; }
+.button-primario { background: var(--rojo); color: #fff; border: 1px solid var(--rojo); }
+.button-primario:hover { background: var(--rojo-oscuro); border-color: var(--rojo-oscuro); }
+.button-contorno { background: transparent; color: #fff; border: 1px solid var(--n600); }
+.button-contorno:hover { border-color: #fff; }
+
 .pie { padding-top: 32px; padding-bottom: 48px; font-size: 13px; color: var(--n600); }
 .pie p { margin: 0 0 10px; max-width: 760px; }
