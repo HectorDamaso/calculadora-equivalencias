@@ -1,14 +1,14 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { equivalencias, nutrientePrincipal, redondear, reglaEntre } from '../js/calculo.js';
-import { reglas } from '../js/reglas.js';
+import { equivalencias, nutrientePrincipal, redondear, reglaEntre, compensarGrasas } from '../js/calculo.js';
+import { reglas, grasasParaCompensar } from '../js/reglas.js';
 
 const { alimentos } = JSON.parse(readFileSync(new URL('../datos/alimentos.json', import.meta.url), 'utf8'));
 const buscar = (r, id) => r.alternativas.find((x) => x.alimento.id === id);
 
 test('el catálogo tiene ids únicos y valores válidos', () => {
-  assert.ok(alimentos.length > 700);
+  assert.ok(alimentos.length > 600);
   assert.equal(new Set(alimentos.map((a) => a.id)).size, alimentos.length);
   for (const a of alimentos) for (const k of ['kcal', 'proteina', 'hidratos', 'grasa']) assert.ok(a[k] >= 0, a.nombre);
 });
@@ -23,7 +23,7 @@ test('regla fija: 100 g de arroz = 400 g de papas, y 50 g = 200 g', () => {
     const x = buscar(equivalencias(alimentos, reglas, { de: 'arroz-blanco-en-crudo', cantidad: arroz }), 'papas-en-crudo');
     assert.equal(x.gramos, papas); assert.ok(x.regla);
   }
-  const vuelta = buscar(equivalencias(alimentos, reglas, { de: 'papas-en-crudo', cantidad: 400 }), 'arroz-basmati-crudo');
+  const vuelta = buscar(equivalencias(alimentos, reglas, { de: 'papas-en-crudo', cantidad: 400 }), 'arroz-basmati-en-crudo');
   assert.equal(vuelta.gramos, 100);
 });
 
@@ -43,11 +43,14 @@ test('sin regla, iguala el nutriente con cantidades redondeadas', () => {
   assert.ok(Math.abs(pasta.despues.hidratos - r.antes.hidratos) <= 72 * 5 / 100);
 });
 
-test('«Automático» usa el nutriente que más calorías aporta', () => {
+test('«Automático»: proteína si es fuente de proteína; si no, el nutriente que más calorías aporta', () => {
   const porNombre = (n) => alimentos.find((a) => a.nombre === n);
   assert.equal(nutrientePrincipal(porNombre('Merluza')), 'proteina');
   assert.equal(nutrientePrincipal(porNombre('Copos de avena')), 'hidratos');
-  assert.equal(nutrientePrincipal(porNombre('Salmón')), 'grasa');
+  assert.equal(nutrientePrincipal(porNombre('Salmón')), 'proteina');
+  assert.equal(nutrientePrincipal(porNombre('Huevo entero')), 'proteina');
+  assert.equal(nutrientePrincipal(porNombre('Almendras')), 'grasa');
+  assert.equal(nutrientePrincipal(porNombre('Lentejas en crudo')), 'hidratos');
 });
 
 test('por defecto solo salen alimentos del mismo tipo; con «todos», el resto', () => {
@@ -71,4 +74,39 @@ test('las cantidades enormes se marcan como poco prácticas y van al final', () 
   const r = equivalencias(alimentos, reglas, { de: 'arroz-blanco-en-crudo', cantidad: 180, todos: true });
   const i = r.alternativas.findIndex((x) => !x.practica);
   if (i >= 0) assert.ok(r.alternativas.slice(i).every((x) => !x.practica));
+});
+
+test('todas las grasas para compensar existen y tienen grasa', () => {
+  for (const id of grasasParaCompensar) assert.ok(alimentos.find((a) => a.id === id)?.grasa > 0, id);
+});
+
+test('salmón por pechuga de pollo: faltan grasas y propone cuánto añadir', () => {
+  const r = equivalencias(alimentos, reglas, { de: 'salmon', cantidad: 150, grasas: grasasParaCompensar });
+  assert.equal(r.nutriente, 'proteina');
+  const pollo = buscar(r, 'pechuga-de-pollo');
+  assert.ok(pollo, 'la pechuga sale sin marcar «todos»');
+  assert.ok(pollo.compensar.falta);
+  const falta = -pollo.cambio.grasa;
+  assert.ok(Math.abs(pollo.compensar.grasa - falta) < 0.01);
+  for (const o of pollo.compensar.opciones) assert.ok(Math.abs(o.aporta.grasa - falta) <= Math.max(1, o.alimento.grasa * 2.5 / 100) + 0.01, o.alimento.nombre);
+});
+
+test('pechuga de pollo por salmón: sobran grasas y propone cuánto quitar', () => {
+  const r = equivalencias(alimentos, reglas, { de: 'pechuga-de-pollo', cantidad: 150, grasas: grasasParaCompensar });
+  const salmon = buscar(r, 'salmon');
+  assert.equal(salmon.compensar.falta, false);
+  assert.ok(salmon.compensar.grasa > 10);
+});
+
+test('sin diferencia de grasa apreciable, o igualando por grasas, no se compensa', () => {
+  assert.equal(compensarGrasas(alimentos, grasasParaCompensar, 2), null);
+  const r = equivalencias(alimentos, reglas, { de: 'salmon', cantidad: 150, metrica: 'grasa', grasas: grasasParaCompensar });
+  assert.ok(r.alternativas.every((x) => x.compensar === null));
+});
+
+test('nombres corregidos y duplicados unidos', () => {
+  const nombres = new Set(alimentos.map((a) => a.nombre));
+  assert.ok(nombres.has('Ñoquis de patata Hacendado'));
+  assert.ok(![...nombres].some((n) => /ñordos|\(versión \d\)/i.test(n)));
+  assert.equal(nombres.size, alimentos.length);
 });

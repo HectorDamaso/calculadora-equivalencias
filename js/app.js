@@ -1,5 +1,5 @@
 import { equivalencias, MAXIMO } from './calculo.js';
-import { reglas } from './reglas.js';
+import { reglas, grasasParaCompensar } from './reglas.js';
 
 const $ = (id) => document.getElementById(id);
 const nombres = { proteina: 'Proteína', hidratos: 'Hidratos', grasa: 'Grasas', kcal: 'Calorías' };
@@ -14,6 +14,9 @@ const guardar = () => { try { localStorage.setItem('calculadora', JSON.stringify
 
 const { alimentos } = await (await fetch('datos/alimentos.json')).json();
 const porId = new Map(alimentos.map((a) => [a.id, a]));
+// Texto en el que se busca: el nombre y los sinónimos (p. ej. «patata» para «papas»).
+const textoBusqueda = new Map(alimentos.map((a) => [a.id, normal(`${a.nombre} ${a.buscar ?? ''}`)]));
+const encaja = (a, palabras) => palabras.every((p) => textoBusqueda.get(a.id).includes(p));
 const estado = {
   de: porId.has(guardado.de) ? guardado.de : 'arroz-blanco-en-crudo',
   cantidad: Number(guardado.cantidad) > 0 ? String(guardado.cantidad) : '100',
@@ -29,8 +32,8 @@ function coincidencias(texto) {
   if (!q) return alimentos.slice(0, 50);
   const palabras = q.split(/\s+/);
   return alimentos
+    .filter((a) => encaja(a, palabras))
     .map((a) => ({ a, n: normal(a.nombre) }))
-    .filter(({ n }) => palabras.every((p) => n.includes(p)))
     .sort((x, y) => Number(y.n.startsWith(q)) - Number(x.n.startsWith(q)) || x.n.length - y.n.length)
     .slice(0, 50).map(({ a }) => a);
 }
@@ -80,6 +83,20 @@ $('mas').addEventListener('click', () => { estado.mostrar += POR_PAGINA; pintar(
 
 function escapar(t) { return String(t).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]); }
 const cambio = (n, uno) => `${uno} ${conSigno(n)}`;
+const enMinuscula = (t) => t.charAt(0).toLowerCase() + t.slice(1);
+
+// Desplegable con las grasas para igualar el cambio.
+function compensacion(c) {
+  const titulo = c.falta ? `Te faltan ${entero(c.grasa)} g de grasa` : `Te sobran ${entero(c.grasa)} g de grasa`;
+  const instruccion = c.falta ? 'Para que quede igual, añade una de estas:' : 'Para que quede igual, quita del resto del día una de estas:';
+  const opciones = c.opciones.map(({ alimento, gramos, aporta }) => {
+    const extra = [['proteína', aporta.proteina], ['hidratos', aporta.hidratos]].filter(([, g]) => Math.round(g) >= 2)
+      .map(([n, g]) => `${entero(g)} g de ${n}`).join(' y ');
+    const nota = extra ? ` <span>(también ${c.falta ? 'suma' : 'resta'} ${extra})</span>` : '';
+    return `<li><strong>${c.falta ? '+' : '−'} ${entero(gramos)} g</strong> de ${escapar(enMinuscula(alimento.nombre))}${nota}</li>`;
+  }).join('');
+  return `<details class="compensar${c.falta ? '' : ' sobra'}"><summary>${titulo} · cómo igualarlo</summary><p>${instruccion}</p><ul>${opciones}</ul></details>`;
+}
 
 function pintar() {
   const original = porId.get(estado.de);
@@ -87,7 +104,7 @@ function pintar() {
   let r = null;
   try {
     if (estado.cantidad.trim() === '') throw new Error('Escribe la cantidad en gramos.');
-    r = equivalencias(alimentos, reglas, { de: estado.de, cantidad: Number(estado.cantidad), metrica: estado.metrica, todos: estado.todos });
+    r = equivalencias(alimentos, reglas, { de: estado.de, cantidad: Number(estado.cantidad), metrica: estado.metrica, todos: estado.todos, grasas: grasasParaCompensar });
     $('error').textContent = '';
   } catch (e) { $('error').textContent = e.message; }
 
@@ -104,7 +121,7 @@ function pintar() {
     categorias.map((c) => `<option value="${escapar(c)}" ${c === estado.categoria ? 'selected' : ''}>${escapar(c)}</option>`).join('');
 
   const q = normal(estado.texto.trim());
-  const filtradas = r.alternativas.filter((x) => (!estado.categoria || x.alimento.categoria === estado.categoria) && (!q || q.split(/\s+/).every((p) => normal(x.alimento.nombre).includes(p))));
+  const filtradas = r.alternativas.filter((x) => (!estado.categoria || x.alimento.categoria === estado.categoria) && (!q || encaja(x.alimento, q.split(/\s+/))));
   $('contador').textContent = filtradas.length === 1 ? '1 alternativa' : `${entero(filtradas.length)} alternativas${filtradas.length ? ', las más parecidas primero' : ''}`;
   $('lista').innerHTML = filtradas.slice(0, estado.mostrar).map((x) => `
     <li class="opcion${x.regla ? ' regla' : ''}${x.practica ? '' : ' poco-practica'}">
@@ -114,6 +131,7 @@ function pintar() {
       </div>
       <p class="opcion-datos">≈ ${entero(x.despues.kcal)} kcal · P ${entero(x.despues.proteina)} · H ${entero(x.despues.hidratos)} · G ${entero(x.despues.grasa)} g</p>
       <p class="opcion-cambio">Cambio: ${cambio(x.cambio.kcal, 'kcal')} · ${cambio(x.cambio.proteina, 'P')} · ${cambio(x.cambio.hidratos, 'H')} · ${cambio(x.cambio.grasa, 'G')} g</p>
+      ${x.compensar && x.practica ? compensacion(x.compensar) : ''}
       ${x.regla ? `<p class="opcion-regla">Equivalencia fija del programa: ${escapar(x.regla.texto)}.</p>` : ''}
       ${x.practica ? '' : '<p class="opcion-nota">Haría falta demasiada cantidad: no es un buen cambio.</p>'}
     </li>`).join('');

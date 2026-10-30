@@ -102,6 +102,18 @@ button, input, select { font: inherit; -webkit-tap-highlight-color: transparent;
 .opcion-regla { margin: 8px 0 0; font-size: 12px; font-weight: 600; color: #8f1d17; }
 .opcion-nota { margin: 8px 0 0; font-size: 12px; }
 
+/* Igualar las grasas de un cambio */
+.compensar { margin: 10px 0 0; border-radius: 6px; background: #fdecea; color: #5c130f; font-size: 13px; }
+.compensar.sobra { background: var(--n100); color: var(--n700); }
+.compensar summary { min-height: 40px; display: flex; align-items: center; gap: 8px; padding: 8px 12px; cursor: pointer; font-weight: 600; list-style: none; }
+.compensar summary::-webkit-details-marker { display: none; }
+.compensar summary::before { content: '+'; display: inline-grid; place-items: center; flex-shrink: 0; width: 20px; height: 20px; border-radius: 50%; background: var(--rojo); color: #fff; font-size: 14px; line-height: 1; }
+.compensar.sobra summary::before { content: '−'; background: var(--n600); }
+.compensar[open] summary { border-bottom: 1px solid rgb(0 0 0 / .08); }
+.compensar p { margin: 10px 12px 4px; }
+.compensar ul { margin: 0; padding: 0 12px 12px 30px; display: grid; gap: 4px; }
+.compensar li span { color: var(--n600); font-size: 12px; }
+
 .button { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; border-radius: 6px; padding: 12px 22px; font-size: 14px; font-weight: 600; cursor: pointer; }
 .button-secondary { margin-top: 16px; width: 100%; background: #fff; color: var(--n900); border: 1px solid var(--n300); }
 .button-secondary:hover { border-color: var(--n900); }
