@@ -13,7 +13,7 @@ const e = (cambios) => evaluar({ ...ideal, ...cambios });
 test('candidato ideal: minicut con su plan', () => {
   const r = e({});
   assert.equal(r.veredicto, 'minicut');
-  assert.equal(r.plan.comer, 2780); // 620 menos: el resto sale de pasos y cardio
+  assert.equal(r.plan.comer, 2820); // 580 menos: el resto sale de pasos y cardio
   assert.equal(r.plan.pasos.meta, 12000);
   assert.equal(r.plan.cardio.sesiones, 3);
   assert.ok(Math.abs(r.plan.total - 900) < 10);
@@ -59,7 +59,7 @@ test('minicut forzado: se ofrece con avisos y más corto', () => {
   const f = minicutForzado({ ...ideal, anosFuerza: 'menos1', eventos: true });
   assert.equal(f.permitido, true);
   assert.deepEqual(f.plan.semanas, [4, 6]);
-  assert.equal(f.plan.comer, 2780);
+  assert.equal(f.plan.comer, 2820);
   assert.ok(f.avisos.some((a) => /cargas/.test(a)) && f.avisos.some((a) => /vacaciones/.test(a)));
 });
 
@@ -68,7 +68,7 @@ test('minicut forzado: nunca con ansiedad o atracones ni sin margen de calorías
   assert.equal(minicutForzado({ ...ideal, kcal: 2200 }).permitido, false); // 2200 − 1800 = 400 < 500
   const justo = minicutForzado({ ...ideal, kcal: 2400 }); // margen 600: se permite, sin bajar de 1800
   assert.equal(justo.permitido, true);
-  assert.equal(justo.plan.comer, 1800);
+  assert.equal(justo.plan.comer, 1820); // ~540 de comida, el resto de pasos y cardio
 });
 
 test('reparto del déficit: primero moverse, la comida siempre baja algo', () => {

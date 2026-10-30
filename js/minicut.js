@@ -104,10 +104,10 @@ export const DEFICIT_OBJETIVO = 900; // kcal al día, en medio de 800–1.000
 export const RECORTE_COMIDA = { min: 300, max: 1000 }; // la comida siempre baja algo, nunca más de 1.000
 export const PASOS = { meta: 12000, tope: 15000, sumaSiYaLlega: 2000, porDefecto: 8000 };
 export const CARDIO = { minutos: 30, sesiones: 3, sesionesSinPasos: 5 };
-// Gasto aproximado: andar ≈ 0,55 kcal por kg cada 1.000 pasos; cardio moderado
-// (bici, elíptica, cinta inclinada) ≈ 5 kcal por kg cada hora, por encima del reposo.
-const KCAL_1000_PASOS_KG = 0.55;
-const KCAL_HORA_CARDIO_KG = 5;
+// Gasto de la hoja de Héctor (igual que la calculadora de calorías y APP-1-1):
+// 0,625 kcal por kg cada 1.000 pasos; cardio 0,1 kcal por kg y minuto.
+const KCAL_1000_PASOS_KG = 0.625;
+const KCAL_HORA_CARDIO_KG = 6;
 
 /** Reparte el déficit del día entre pasos, cardio y comida. */
 export function repartoDeficit({ peso, kcal, pasosActuales, masPasos = true, cardio = true }, sexo = 'hombre') {
