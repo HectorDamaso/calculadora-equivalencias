@@ -64,6 +64,37 @@ export function evaluar(d) {
   return sale('minicut', 'Puedes hacer el minicut');
 }
 
+export const RECORTE_MINIMO_FORZADO = 500; // kcal: con menos margen, no es un minicut
+export const SEMANAS_FORZADO = { min: 4, max: 6 };
+
+/**
+ * Minicut aunque el test no lo recomiende. Se ofrece salvo si la comida genera
+ * ansiedad o atracones, o si las calorías no dejan margen para recortar.
+ * Devuelve { permitido, motivo } o { permitido, plan, avisos }.
+ */
+export function minicutForzado(d) {
+  const sexo = d.sexo === 'mujer' ? 'mujer' : 'hombre';
+  if (d.relacionComida === 'dificil') {
+    return { permitido: false, motivo: 'Con ansiedad o atracones no te voy a dar un minicut, aunque lo pidas: un recorte así lo empeora. Escríbeme y buscamos la forma de que pierdas grasa sin pasarlo mal.' };
+  }
+  if (!(d.kcal - MINIMO_KCAL[sexo] >= RECORTE_MINIMO_FORZADO)) {
+    return { permitido: false, motivo: `Con ${entero(d.kcal)} kcal no hay de dónde recortar sin bajar de ${entero(MINIMO_KCAL[sexo])}. Un minicut con tan poco margen no es un minicut: es pasar hambre.` };
+  }
+  const base = plan(d, sexo);
+  const kcalMax = Math.max(MINIMO_KCAL[sexo], r10(d.kcal - DEFICIT.min));
+  const avisos = ['Lo haces bajo tu responsabilidad: el test te recomienda otra cosa por los motivos de arriba.'];
+  avisos.push(`Como no es tu momento ideal, que sea más corto: ${SEMANAS_FORZADO.min}–${SEMANAS_FORZADO.max} semanas como mucho, y después vuelve a mantenimiento.`);
+  if (d.vieneDe === 'deficit') avisos.push('Vienes de estar en déficit: si el rendimiento cae o el hambre se dispara en las primeras dos semanas, para y pasa a mantenimiento.');
+  if (d.anosFuerza === 'menos1') avisos.push('Llevas poco entrenando: no bajes las cargas ni un kilo. Es lo único que va a proteger tu músculo.');
+  if (Number.isFinite(d.diasFuerza) && d.diasFuerza < 3) avisos.push('Sube a 3 días de fuerza como mínimo mientras dure.');
+  const pct = d.kgPerder > 0 ? (d.kgPerder / d.peso) * 100 : null;
+  if (pct !== null && pct > 12) avisos.push(`El minicut te quitará unos ${base.perder[0].toLocaleString('es-ES', { maximumFractionDigits: 1 })}–${base.perder[1].toLocaleString('es-ES', { maximumFractionDigits: 1 })} kg. El resto, con un déficit normal después de una pausa en mantenimiento.`);
+  if (d.estresSueno === 'mal') avisos.push('Con estrés alto o mal descanso, el hambre y el cansancio van a ser mayores. Prioriza dormir.');
+  if (d.eventos) avisos.push('Si en mitad del minicut tienes vacaciones o un evento, termínalo antes o empiézalo después: cortarlo a la mitad lo alarga.');
+  if (d.vieneDe === 'volumen' && d.grasaDeMas === 'no') avisos.push('Sigues ganando más músculo que grasa: estás cortando un volumen que aún funcionaba.');
+  return { permitido: true, plan: { ...base, kcal: [base.kcal[0], kcalMax], semanas: [SEMANAS_FORZADO.min, SEMANAS_FORZADO.max] }, avisos };
+}
+
 const entero = (n) => Math.round(n).toLocaleString('es-ES');
 const fmt = (n) => n.toLocaleString('es-ES', { maximumFractionDigits: 1 });
 const r10 = (n) => Math.round(n / 10) * 10;

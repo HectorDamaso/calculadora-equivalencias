@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { evaluar } from '../js/minicut.js';
+import { evaluar, minicutForzado } from '../js/minicut.js';
 
 // Candidato ideal: viene de volumen con calorías altas, gana grasa de más, entrena años.
 const ideal = {
@@ -49,4 +49,20 @@ test('apto con avisos y suelo de calorías para mujeres', () => {
 test('pide peso y calorías', () => {
   assert.throws(() => e({ peso: 0 }), /peso/);
   assert.throws(() => e({ kcal: NaN }), /calorías/);
+});
+
+test('minicut forzado: se ofrece con avisos y más corto', () => {
+  const f = minicutForzado({ ...ideal, anosFuerza: 'menos1', eventos: true });
+  assert.equal(f.permitido, true);
+  assert.deepEqual(f.plan.semanas, [4, 6]);
+  assert.deepEqual(f.plan.kcal, [2400, 2600]);
+  assert.ok(f.avisos.some((a) => /cargas/.test(a)) && f.avisos.some((a) => /vacaciones/.test(a)));
+});
+
+test('minicut forzado: nunca con ansiedad o atracones ni sin margen de calorías', () => {
+  assert.equal(minicutForzado({ ...ideal, relacionComida: 'dificil' }).permitido, false);
+  assert.equal(minicutForzado({ ...ideal, kcal: 2200 }).permitido, false); // 2200 − 1800 = 400 < 500
+  const justo = minicutForzado({ ...ideal, kcal: 2400 }); // margen 600: se permite, sin bajar de 1800
+  assert.equal(justo.permitido, true);
+  assert.deepEqual(justo.plan.kcal, [1800, 1800]);
 });

@@ -176,6 +176,11 @@ input.contador-num { width: 64px; min-height: 40px; padding: 6px; }
 .plan-minicut dt { font-size: 12px; color: var(--n500); }
 .plan-minicut dd { margin: 4px 0 0; font-family: var(--titular); font-size: 24px; line-height: 1.1; }
 .resultado-consejo a { color: #8f1d17; }
+.forzado { margin: 20px 0 0; padding: 16px; border: 1px dashed var(--n300); border-radius: 8px; font-size: 14px; }
+.forzado p { margin: 6px 0 0; }
+.forzado-titulo { margin: 0 !important; font-weight: 700; font-size: 15px; }
+.forzado .plan-minicut { background: #fff; }
+.enlace-boton { margin-top: 14px; padding: 0; border: 0; background: none; color: var(--n600); font: inherit; font-size: 13px; text-decoration: underline; cursor: pointer; }
 .guia { margin-top: 48px; }
 .guia > h2 { margin: 12px 0 0; font-size: clamp(36px, 7vw, 64px); }
 .guia-pasos { list-style: none; counter-reset: paso; margin: 28px 0 0; padding: 0; display: grid; gap: 14px; }
