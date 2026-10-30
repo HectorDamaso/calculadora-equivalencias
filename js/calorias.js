@@ -122,6 +122,37 @@ export function zonas(peso) {
   return { suave: [0, bueno], bueno: [bueno, rapido], rapido: [rapido, 800], minicut: [800, 1050], demasiado: [1050, 1300] };
 }
 
+// Volumen: superávit pequeño. Por debajo de 100 apenas da motivo para crecer; por
+// encima de 500 se gana grasa de más («nunca 500 de golpe»).
+export const ZONAS_VOLUMEN = { justo: [0, 100], bueno: [100, 300], alto: [300, 500], demasiado: [500, 700] };
+
+/**
+ * Plan de volumen: lo que añades andando o con cardio sube tu gasto, así que hay que
+ * comer más para seguir en superávit. Datos como mezclar(), con `comer` en vez de `recorte`.
+ */
+export function superavit({ peso, mantenimiento, pasosActuales = 0, cardioActual = 0, comer, pasos, cardio }) {
+  const pasosNuevos = Math.max(pasosActuales, pasos ?? pasosActuales);
+  const cardioNuevo = Math.max(cardioActual, cardio ?? cardioActual);
+  const partes = { pasos: kcalPasos(peso, pasosNuevos - pasosActuales), cardio: kcalCardioDia(peso, cardioNuevo - cardioActual) };
+  const gastoNuevo = mantenimiento + partes.pasos + partes.cardio;
+  const valor = comer - gastoNuevo;
+  let ritmo;
+  if (valor < 0) ritmo = 'negativo';
+  else if (valor < ZONAS_VOLUMEN.bueno[0]) ritmo = 'justo';
+  else if (valor <= ZONAS_VOLUMEN.bueno[1]) ritmo = 'bueno';
+  else if (valor <= ZONAS_VOLUMEN.alto[1]) ritmo = 'alto';
+  else ritmo = 'demasiado';
+  // Referencia del método: subir un 1–2 % del peso al mes.
+  return { comer, gastoNuevo, superavit: valor, partes, pasos: pasosNuevos, cardio: cardioNuevo, ritmo, mes: [peso * 0.01, peso * 0.02] };
+}
+
+/** Punto de partida del volumen: al menos 8.000 pasos (por salud), sin cardio extra y +200 kcal. */
+export function propuestaVolumen({ peso, mantenimiento, pasosActuales = 0 }) {
+  const pasos = Math.max(pasosActuales, 8000);
+  const gastoNuevo = mantenimiento + kcalPasos(peso, pasos - pasosActuales);
+  return { pasos, sesiones: 0, minutos: 30, comer: r10(gastoNuevo + SUPERAVIT) };
+}
+
 /** Comparación de lo que come ahora con su mantenimiento. */
 export function comparar(mantenimiento, ingesta, peso) {
   if (!(ingesta > 0)) return null;

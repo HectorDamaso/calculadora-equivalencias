@@ -64,3 +64,20 @@ test('comparar lo que come con su mantenimiento', () => {
   assert.ok(Math.abs(comparar(3000, 2450, 80).kgSemana + 0.5) < 1e-9); // −550 × 7 ÷ 7.700
   assert.equal(comparar(3000, NaN, 80), null);
 });
+
+test('volumen: lo que añades andando o con cardio hay que comerlo', async () => {
+  const { superavit, propuestaVolumen } = await import('../js/calorias.js');
+  const p = propuestaVolumen({ peso: 85, mantenimiento: 3000, pasosActuales: 6000 });
+  assert.equal(p.pasos, 8000); // al menos 8.000 por salud
+  assert.equal(p.comer, 3310); // 3.000 + 106 de los pasos + 200 de superávit, redondeado
+  const base = { peso: 85, mantenimiento: 3000, pasosActuales: 8000, cardioActual: 0 };
+  assert.equal(superavit({ ...base, comer: 3200 }).ritmo, 'bueno');
+  assert.equal(superavit({ ...base, comer: 3050 }).ritmo, 'justo');
+  assert.equal(superavit({ ...base, comer: 3400 }).ritmo, 'alto');
+  assert.equal(superavit({ ...base, comer: 3600 }).ritmo, 'demasiado');
+  assert.equal(superavit({ ...base, comer: 2900 }).ritmo, 'negativo');
+  // Con 4.000 pasos más (212,5 kcal), comer 3.200 ya no llega al verde.
+  const andando = superavit({ ...base, comer: 3200, pasos: 12000 });
+  assert.ok(Math.abs(andando.partes.pasos - 212.5) < 1e-9);
+  assert.equal(andando.ritmo, 'negativo');
+});

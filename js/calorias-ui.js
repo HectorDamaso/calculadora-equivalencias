@@ -1,4 +1,4 @@
-import { gasto, objetivo, mezclar, propuesta, macros, kcalPasos, kcalCardioDia, zonas, comparar } from './calorias.js';
+import { gasto, objetivo, mezclar, propuesta, macros, kcalPasos, kcalCardioDia, zonas, comparar, superavit, propuestaVolumen, ZONAS_VOLUMEN } from './calorias.js';
 
 const $ = (id) => document.getElementById(id);
 const numero = (id) => { const v = $(id).value.trim().replace(',', '.'); return v === '' ? NaN : Number(v); };
@@ -16,7 +16,7 @@ document.querySelectorAll('.chips[data-grupo]').forEach((grupo) => {
     const b = e.target.closest('button[data-valor]'); if (!b) return;
     elegido[nombre] = b.dataset.valor;
     grupo.querySelectorAll('button').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
-    if (nombre === 'sexo') plan = null;
+    if (nombre === 'sexo' || nombre === 'objetivo') plan = null;
     pintar();
   });
 });
@@ -117,21 +117,24 @@ function pintar() {
       </tbody>
     </table>`;
 
-  const enDeficit = elegido.objetivo === 'deficit';
-  $('mezclador').hidden = !enDeficit;
-  if (!enDeficit) {
+  const modo = elegido.objetivo;
+  $('mezclador').hidden = modo === 'mantener';
+  if (modo === 'mantener') {
     ultimo = null;
-    const kcal = objetivo(g.mantenimiento, elegido.objetivo);
-    let texto = elegido.objetivo === 'volumen'
-      ? 'Un superávit pequeño, de unas 200 kcal: lo justo para darle al cuerpo un motivo para crecer sin ganar grasa de más. Busca subir un 1–2 % de tu peso al mes y súbelo poco a poco, nunca 500 kcal de golpe.'
-      : 'Las calorías con las que, haciendo lo que haces ahora, tu peso debería quedarse estable.';
+    const kcal = objetivo(g.mantenimiento, 'mantener');
+    let texto = 'Las calorías con las que, haciendo lo que haces ahora, tu peso debería quedarse estable.';
     if (c) {
       const paso = kcal - ingesta;
-      texto += Math.abs(paso) < 50 ? ' Ya estás ahí.' : ` Te supone ${paso > 0 ? 'subir' : 'bajar'} unas ${miles(Math.abs(r10(paso)))} kcal desde lo que comes ahora${elegido.objetivo === 'volumen' && paso > 300 ? ', poco a poco' : ''}.`;
+      texto += Math.abs(paso) < 50 ? ' Ya estás ahí.' : ` Te supone ${paso > 0 ? 'subir' : 'bajar'} unas ${miles(Math.abs(r10(paso)))} kcal desde lo que comes ahora.`;
     }
     $('objetivo').innerHTML = `${tablaMacros(macros(kcal, datos.peso))}<p class="resultado-motivo">${texto}</p>`;
     return;
   }
+  $('titulo-plan').textContent = modo === 'volumen' ? 'Tu plan para ganar músculo' : 'Tu plan para perder grasa';
+  $('ayuda-plan').innerHTML = modo === 'volumen'
+    ? 'En volumen buscas un superávit pequeño. Si andas más o haces cardio, gastas más y tienes que comer más para seguir sumando. Toca <strong>−</strong> y <strong>+</strong> hasta que la marca quede en la zona verde.'
+    : 'El déficit sale de tres sitios: comer algo menos, andar más y hacer cardio. Te propongo un reparto; toca <strong>−</strong> y <strong>+</strong> en cada fila hasta que la barra quede en la zona verde.';
+  if (modo === 'volumen') return pintarVolumen(g, datos, c, ingesta, mant);
 
   // Plan para perder grasa: propuesta o lo que haya tocado el usuario.
   if (!plan) {
@@ -168,5 +171,68 @@ function pintar() {
     <h3 class="subtitulo">Tus macros</h3>
     ${tablaMacros(macros(plan.comer, datos.peso))}
     <p class="resultado-nota">Referencia: 1.000 pasos más son unas ${miles(kcalPasos(datos.peso, 1000))} kcal al día; cada sesión de 30 minutos de cardio, unas ${miles(kcalCardioDia(datos.peso, 30) * 7)} kcal (repartidas en la semana).</p>`;
+}
+
+const RITMO_VOLUMEN = {
+  negativo: ['veredicto-bajar', 'Así no creces', 'Comes menos de lo que gastas: estarías en déficit. Sube la comida o no añadas tanta actividad.'],
+  justo: ['veredicto-pasos', 'Muy justo', 'Con menos de 100 kcal de superávit apenas le das al cuerpo un motivo para crecer. Súbelo un poco.'],
+  bueno: ['veredicto-mantener', 'Superávit bueno', 'Entre 100 y 300 kcal: lo justo para ganar músculo con la mínima grasa. Volumen no es comer sin más.'],
+  alto: ['veredicto-pasos', 'Algo alto', 'Entre 300 y 500 kcal ya ganarás algo más de grasa. Si vienes de comer mucho menos, llega aquí poco a poco.'],
+  demasiado: ['veredicto-bajar', 'Demasiado', 'Más de 500 kcal de superávit: lo que ganes será sobre todo grasa. Nunca subas 500 kcal de golpe.'],
+};
+
+// Barra de zonas del volumen con una marca en el superávit.
+function medidorVolumen(s) {
+  const tope = ZONAS_VOLUMEN.demasiado[1];
+  const pc = (n) => `${Math.min(100, Math.max(0, (n / tope) * 100)).toFixed(2)}%`;
+  const tramos = Object.entries(ZONAS_VOLUMEN).map(([k, [a, b]]) => `<span class="zona zona-v-${k}" style="left:${pc(a)};width:${pc(b - a)}"></span>`).join('');
+  const valor = r10(s.superavit);
+  return `
+    <div class="medidor-cifra"><span class="display">≈ ${valor >= 0 ? '+' : '−'}${miles(Math.abs(valor))}</span> kcal de superávit al día <small>· la zona verde es 100–300 kcal</small></div>
+    <div class="medidor-barra medidor-volumen" role="img" aria-label="Superávit de ${miles(valor)} kcal">
+      <div class="medidor-zonas">${tramos}</div>
+      <span class="medidor-marca" style="left:${pc(s.superavit)}"></span>
+    </div>
+    <div class="medidor-leyenda">
+      <span>Comes ${miles(s.comer)}</span>
+      <span>Gastas ${miles(r10(s.gastoNuevo))}${s.partes.pasos + s.partes.cardio >= 1 ? ` (con +${miles(s.partes.pasos + s.partes.cardio)} de lo que añades)` : ''}</span>
+    </div>`;
+}
+
+function pintarVolumen(g, datos, c, ingesta, mant) {
+  if (!plan) {
+    const p = propuestaVolumen({ peso: datos.peso, mantenimiento: g.mantenimiento, pasosActuales: datos.pasos });
+    plan = { comer: p.comer, pasos: p.pasos, sesiones: p.sesiones, minutos: p.minutos };
+  }
+  ultimo = { plan, pasosActuales: datos.pasos };
+  const s = superavit({
+    peso: datos.peso, mantenimiento: g.mantenimiento, pasosActuales: datos.pasos, cardioActual: datos.cardioMin,
+    comer: plan.comer, pasos: plan.pasos, cardio: datos.cardioMin + plan.sesiones * plan.minutos,
+  });
+  $('medidor').innerHTML = medidorVolumen(s);
+  $('v-comer').textContent = `${miles(plan.comer)} kcal`;
+  $('t-comer').textContent = `Gastas ${miles(mant)}${c ? ` · ahora comes ${miles(ingesta)}` : ''}`;
+  const sobre = r10(plan.comer - g.mantenimiento);
+  $('k-comer').textContent = `${sobre >= 0 ? '+' : '−'}${miles(Math.abs(sobre))} kcal`;
+  $('v-pasos').textContent = miles(plan.pasos);
+  $('t-pasos').textContent = plan.pasos > datos.pasos ? `Ahora ${miles(datos.pasos)} · ${miles(plan.pasos - datos.pasos)} más` : `Los ${miles(datos.pasos)} de ahora`;
+  $('k-pasos').textContent = s.partes.pasos >= 1 ? `gastas +${miles(s.partes.pasos)}` : '0 kcal';
+  $('v-sesiones').textContent = plan.sesiones;
+  $('v-minutos').textContent = `${plan.minutos} min`;
+  $('k-cardio').textContent = s.partes.cardio >= 1 ? `gastas +${miles(s.partes.cardio)}` : '0 kcal';
+
+  const [clase, titulo, texto] = RITMO_VOLUMEN[s.ritmo];
+  const cambioComida = c ? plan.comer - ingesta : null;
+  const notaComida = c && Math.abs(cambioComida) >= 50
+    ? `<p class="resultado-nota">Desde lo que comes ahora, eso es ${cambioComida < 0 ? 'quitar' : 'añadir'} unas ${miles(Math.abs(r10(cambioComida)))} kcal al día.${cambioComida > 300 ? ' Hazlo poco a poco: unas 100–150 kcal más cada 1–2 semanas, para que el cuerpo se acostumbre.' : ''}</p>`
+    : '';
+  $('objetivo').innerHTML = `
+    <div class="veredicto ${clase}"><h2 class="display">${titulo}</h2></div>
+    <p class="resultado-motivo">${texto} Busca que tu peso suba un 1–2 % al mes: unos <strong>${kg(s.mes[0])}–${kg(s.mes[1])} kg</strong>.</p>
+    ${notaComida}
+    ${s.partes.pasos + s.partes.cardio >= 1 ? '<p class="resultado-nota">Moverte más en volumen está bien: mejora tu forma física y te deja comer más. Solo recuerda que cada paso y cada minuto de cardio hay que comerlo.</p>' : ''}
+    <h3 class="subtitulo">Tus macros</h3>
+    ${tablaMacros(macros(plan.comer, datos.peso))}
+    <p class="resultado-nota">Referencia: 1.000 pasos más son unas ${miles(kcalPasos(datos.peso, 1000))} kcal al día que tienes que comer de más; cada sesión de 30 minutos de cardio, unas ${miles(kcalCardioDia(datos.peso, 30) * 7)} kcal.</p>`;
 }
 pintar();

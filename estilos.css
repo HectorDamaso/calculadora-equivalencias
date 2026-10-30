@@ -224,6 +224,12 @@ input.contador-num { width: 64px; min-height: 40px; padding: 6px; }
 .zona-rapido { background: #e6a23c; }
 .zona-minicut { background: #e07a3c; }
 .zona-demasiado { background: var(--rojo); }
+.zona-v-justo { background: #f2d38f; }
+.zona-v-bueno { background: #3f9a5c; }
+.zona-v-alto { background: #e6a23c; }
+.zona-v-demasiado { background: var(--rojo); }
+.medidor-volumen { height: 16px; }
+.medidor-volumen .medidor-zonas { height: 12px; top: 2px; border-radius: 6px; }
 .parte-comida { background: var(--n900); }
 .parte-pasos { background: #6b7cff; }
 .parte-cardio { background: #c06bd8; }
