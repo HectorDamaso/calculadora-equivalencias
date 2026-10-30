@@ -118,6 +118,37 @@ button, input, select { font: inherit; -webkit-tap-highlight-color: transparent;
 .button-secondary { margin-top: 16px; width: 100%; background: #fff; color: var(--n900); border: 1px solid var(--n300); }
 .button-secondary:hover { border-color: var(--n900); }
 
+/* Herramienta «¿Subo o bajo?» */
+.enlace-cabecera { color: var(--n300); font-size: 13px; text-decoration: underline; text-underline-offset: 3px; }
+.enlace-cabecera:hover { color: #fff; }
+.ayuda { margin: -4px 0 10px; font-size: 12px; color: var(--n400); }
+.trio, .duo { display: grid; gap: 10px; align-items: end; }
+.trio { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.duo { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.trio label span, .duo label span { display: block; margin-bottom: 6px; font-size: 12px; color: var(--n300); font-weight: 400; }
+.duo.campo label span { font-size: 14px; font-weight: 600; color: #fff; }
+.casilla-oscura { align-items: flex-start; color: var(--n200); font-size: 13px; line-height: 1.45; }
+.casilla-oscura input { flex-shrink: 0; margin-top: 1px; }
+.resultado-vacio { margin: 12px 0 0; color: var(--n500); font-size: 15px; }
+.veredicto { margin: 12px 0 0; padding: 20px; border-radius: 8px; background: var(--n100); }
+.veredicto h2 { margin: 0; font-size: clamp(30px, 5vw, 44px); }
+.veredicto-mantener { background: #e9f4ec; color: #14532d; }
+.veredicto-subir, .veredicto-bajar { background: #fdecea; color: #8f1d17; }
+.veredicto-pasos { background: #fff4e0; color: #7a4a00; }
+.veredicto-esperar, .veredicto-cumplir { background: var(--n100); color: var(--n700); }
+.resultado-kcal { margin: 14px 0 0; font-size: 16px; }
+.resultado-motivo { margin: 14px 0 0; font-size: 15px; }
+.resultado-consejo { margin: 10px 0 0; font-size: 15px; }
+.resultado-nota { margin: 12px 0 0; font-size: 13px; color: var(--n600); }
+.resultado-nota a { color: #8f1d17; }
+.resultado-datos { margin: 16px 0 0; padding: 14px 0 0 18px; border-top: 1px solid var(--n200); font-size: 13px; color: var(--n600); display: grid; gap: 4px; }
+
+/* Enlace a la otra herramienta */
+.otra-herramienta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; margin-top: 24px; padding: 20px 24px; border: 1px solid var(--n200); border-radius: 10px; background: #fff; color: var(--n900); text-decoration: none; }
+.otra-herramienta:hover { border-color: var(--n900); }
+.otra-herramienta strong { font-family: var(--titular); font-weight: 400; font-size: 26px; text-transform: uppercase; letter-spacing: .01em; }
+.otra-herramienta span { color: var(--n600); font-size: 14px; }
+
 /* Contacto para el coaching 1 a 1 */
 .contacto { margin-top: 40px; display: grid; gap: 24px; align-items: center; background: var(--tinta); color: #fff; border-radius: 10px; padding: 32px 24px; }
 @media (min-width: 860px) { .contacto { grid-template-columns: minmax(0, 1fr) auto; padding: 40px; } }
